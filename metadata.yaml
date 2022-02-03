@@ -1,0 +1,33 @@
+composer:
+  last: Caldara
+  first: Antonio
+title: Missa Quia mihi et tibi
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2170-D-14
+    date: 1730
+    rism: 212006722
+    url: https://digital.slub-dresden.de/id426605721
+    license: public domain
+    principal: true
+    notes: |
+      contains the following parts (assigned to groups a–e according to
+      grouping in the RISM entry; pages in digital version are indicated):
+      1 × ob 1 (b, 53–58)
+      1 × ob 2 (b, 59–64)
+      3 × vl 1 (c1, 103–112; c2, 113–122; c3, 123–132)
+      3 × vl 2 (c1, 133–140; c2, 141–148; c3, 149–156)
+      3 × vla (c, 157–161; d1, 171–175; d2, 179–183)
+      2 × S (a, 5–11; b, 37–44)
+      2 × A (a, 13–18; b, 45–51)
+      2 × T (a, 21–27; c, 87–93)
+      2 × B (a, 29–35; c, 95–101)
+      1 × vlc (c, 163–170)
+      2 × vlne (b1, 65–70; b2, 71–75)
+      2 × fag (e1, 187–191; e2, 193–197)
+      2 × org (b, 77–85; f, 199–206)
+imslp: Mass_in_A_major_'Quia_mihi_et_tibi'_(Caldara,_Antonio)
