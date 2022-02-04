@@ -74,3 +74,67 @@ KyrieAltoLyrics = \lyricmode {
 
   son. %41 finis
 }
+
+GloriaAlto = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoGloria
+    r2 \mvTr a'8\fE^\tutti a a gis
+    a gis fis8. fis16 gis4 r
+    r e8 d cis d16([ e)] fis8 e
+    d[ e16 fis] gis8[ fis] e[ fis16 gis] a4~
+    a8[ gis16 fis] gis4 a r %5
+    R1
+    r4 r8 \mvTr h\pE^\solo a([ gis)] a([ fis)]
+    gis4 r r h~
+    h8 h a2 gis4~
+    gis8[ cis,] fis2 eis4 %10
+    fis2 r
+    R1
+    r2 r4 \mvTr e~\fE^\tutti
+    e8 e e4 fis fis8 fis
+    fis4 fis r2 %15
+    cis8 cis d cis d[ e16 fis] g8[ fis16 e]
+    fis4 fis8 fis fis2
+    fis r
+    R1*13 %31
+    r2 \mvTr a8.\pE^\solo gis16 gis4
+    a8 fis h a gis8.([ fis16)] e4
+    e e8 e fis2~
+    fis8[ e] fis16[ gis e fis] gis2~ %35
+    gis8[ fis] gis16[ a fis gis] a2~
+    a4 gis fis2
+    e r
+    R1*2 %40
+    R1\fermata \bar "||" %41 finis
+  }
+}
+
+GloriaAltoLyrics = \lyricmode {
+  Et in ter -- ra
+  pax ho -- mi -- ni -- bus
+  bo -- nae, bo -- nae vo -- lun --
+  ta -- _ _ _
+  _ tis. %5
+
+  Lau -- da -- mus
+  te, ad --
+  o -- ra -- _
+  _ mus %10
+  te.
+
+  Gra --
+  ti -- as a -- gi -- mus
+  ti -- bi %15
+  pro -- pter ma -- gnam glo -- _
+  _ ri -- am tu --
+  am.
+
+  Do -- mi -- ne %32
+  De -- us, A -- gnus De -- i,
+  Fi -- li -- us Pa --
+  _ _ %35
+  _ _
+  _ _
+  tris. %38 finis
+}

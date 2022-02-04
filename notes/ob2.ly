@@ -36,3 +36,29 @@ KyrieOboeII = {
     e1\fermata \bar "|." %41 finis
   }
 }
+
+GloriaOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoGloria
+    r2 cis'8\fE e d h
+    cis e4 dis8 e4 h8 a
+    gis a16 h cis8 h a h16 cis d8 cis
+    h cis16 d e8 d cis4. h16 a
+    h2 cis4 r8 e %5
+    d cis d h cis4.\trill dis8
+    e4 r r2
+    R1*5 %12
+    r2 r4 cis~\fE
+    cis8 cis cis4 cis cis8 cis
+    h4 ais cis8 cis ais cis %15
+    fis,4. gis16 ais h4. cis8
+    ais4 h2 ais4
+    h r r2
+    R1*19 %37
+    h4\fE h8 h cis2~
+    cis8 h cis16 dis h cis dis8 cis dis16 e cis dis
+    e4 r8 gis, fis2 %40
+    e1\fermata \bar "||" %41 finis
+  }
+}

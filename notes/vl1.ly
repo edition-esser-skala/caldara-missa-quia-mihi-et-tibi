@@ -47,3 +47,45 @@ KyrieViolinoI = {
     cis1\fermata \bar "|." %41 finis
   }
 }
+
+GloriaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoGloria
+    a'8\fE cis h e e a4 gis8
+    a gis fis4 e r
+    r e8 d cis d16 e fis8 e
+    d4 h'4. a8 a4~
+    a gis a r %5
+    r r8 h a gis a fis
+    gis2 fis\p
+    e4 r r2
+    R1*4 %12
+    r2 r4 a~\f
+    a8 a a4 fis fis8 fis
+    d4 cis r2 %15
+    cis8 cis d cis d e16 fis e fis d e
+    cis8. cis16 d4 cis2\trill
+    h r4 r8 a'!\p
+    fis fis h h e, e fis fis
+    fis4 e4. cis8 fis4~ %20
+    fis8 e16 fis d4. cis16 d h4~
+    h8 cis16 d e8 d cis4 r8 fis
+    g4 r8 e fis4 r8 d
+    e4 r8 cis d4 r8 h
+    cis4 d2 cis4 %25
+    d2 r
+    R1*4 %30
+    r2 e8.\pp d16 cis4
+    d8 h e d cis4 h
+    r2 h4 h8 h
+    cis2~ cis8 h cis16 d h cis
+    d2~ d8 cis d16 e cis d %35
+    e2~ e8 d16 cis fis8 e
+    dis cis16 h e2 dis4
+    e r e\f e8 e
+    fis2~ fis8 e fis16 gis e fis
+    gis8 h, e2 dis4 %40
+    e1\fermata \bar "||" %41 finis
+  }
+}

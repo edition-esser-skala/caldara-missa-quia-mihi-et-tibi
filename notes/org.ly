@@ -91,3 +91,95 @@ KyrieBassFigures = \figuremode {
   <6 5>4 <\t 4> <5 \t> <\t 3> %40
   r1 %41 finis
 }
+
+GloriaOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoGloria
+    \mvTr a4\fE-\tuttiE gis a8 cis h e
+    a, e' h4 e r
+    e8 d cis d16 e fis8 e d e16 fis
+    g8 fis e fis16 gis a4. a,8
+    d4 e a, a'~-\solo %5
+    a gis fis2
+    e8 e gis e a,4\p h
+    e8 fis gis e fis4 gis
+    a cis8 a e4 eis
+    fis a8 fis h gis cis cis, %10
+    fis fis d h h'16 a gis fis gis8 e
+    a16 gis fis e fis e d cis d8 a' h16 a gis fis
+    gis8 cis, d e a,4 \mvTr a'~\fE-\tutti
+    a8 a a4 ais2
+    h4 fis \clef treble cis''8 cis ais cis %15
+    \clef bass fis,, fis d fis h, cis16 d e4~
+    e d8 h fis'4 fis,
+    h \mvTr h'2\pE-\solo a!4~
+    a g2 fis8 d
+    a'4 a, a'4. fis8 %20
+    h4. a16 h g4. fis16 g
+    e4. fis16 g a4 fis
+    e2 d
+    cis h
+    a4 d a2 %25
+    d8 e fis g a fis g e
+    fis d e fis g fis e a,
+    d cis h d e4. fis8
+    gis fis e gis a4 gis8 fis16 e
+    fis4. e16 d e4 a8 fis %30
+    d h e e, a4 a'~
+    a gis a8 a, e'4~
+    e dis e~ e16 d cis h
+    a2~ a8 gis a fis
+    h2~ h8 a h gis %35
+    cis2~ cis8 h a4
+    h8 h' cis gis a fis h h,
+    \mvTr e\fE-\tutti fis gis e a h a gis
+    fis gis a fis h h, r h'
+    e,4 r8 e a,4 h %40
+    e,1\fermata \bar "||" %41 finis
+  }
+}
+
+GloriaBassFigures = \figuremode {
+  r4 \bo <[6]>4. \bc q8 <7>4
+  r <4>8 <_+> r2
+  r1
+  <5>4 <_+> \bo <[9]>8 \bc <[8]>4.
+  <6 5>1 %5
+  <[2]>4 <6> <7>4. <6\\>8
+  r2 <6 5>4 <7 _+>
+  r2 <6!>4 <6 5>
+  <9> <6> <5 4> <\t 3>
+  <9> <6> <6 5> <_+> %10
+  r4 <[6]>2 \bc <[6]>4
+  r1
+  \bo <[6]>8 \bc <[6]> r2.
+  r2 \bo <[6 5]>
+  r4 \bc <[_+ \l]>2. %15
+  <_+>4 <6>8 <_+> r4 <5 _!>8 <6 \t>
+  <6 4+ 2>4 <6> <4> <_+>
+  r <3> <2> <[6]>
+  <2> <6> <4 2> <6>
+  <6 4> <5 3> <5> <6> %20
+  r1
+  <[_!]>2. <6>4
+  <7 _!> <6 \t> <7> <6>
+  <7 [5!]> <6> <7> <6!>
+  <7!>2 <4>4 <3> %25
+  r2 r8 <6>4 <6 [_!]>8
+  <6>4 <6 [_!]>8 <6> r <[6]> <7 _!> <7!>
+  r2 <_+>
+  <[6]>4 <7>2 <6>4
+  <7> <6> <7>2 %30
+  <6>1
+  <2>4 \bo <[6]>2.
+  <2>4 \bc <[6]>2.
+  <5>2 <6>
+  <5> <6> %35
+  <5> <6>4 <6>8 <5>
+  <7 _+>2 <6 5>4 <_+>
+  r1
+  r2 <_+>4. q8
+  r2 <6 5>4 <[_+]> %40
+  r1 %41 finis
+}

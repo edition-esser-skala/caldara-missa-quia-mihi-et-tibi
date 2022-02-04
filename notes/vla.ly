@@ -42,3 +42,30 @@ KyrieViola = {
     a1\fermata \bar "|." %41 finis
   }
 }
+
+GloriaViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 4/4 \tempoGloria
+    a8\fE a' gis e a cis, h e
+    a, e' h4 e r
+    e8 d cis d16 e fis8 e d e16 fis
+    g8 fis e fis16 gis a4. a,8
+    d4 e a, cis' %5
+    fis, e r8 cis fis4
+    h,8 e gis e a,4\p h
+    e r r2
+    R1*4 %12
+    r2 r4 e~\f
+    e8 e e4 e e8 fis
+    fis4 fis r2 %15
+    fis8 fis d fis h, cis16 d e4~
+    e d8 h fis'4 fis,
+    h r r2
+    R1*19 %37
+    gis'8\f fis e gis a4 r8 a
+    a4 r8 a h4 h8 h
+    h4 gis cis, h %40
+    h1\fermata \bar "||" %41 finis
+  }
+}

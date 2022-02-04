@@ -79,3 +79,77 @@ KyrieSopranoLyrics = \lyricmode {
   _ _ lei -- %40
   son. %41 finis
 }
+
+GloriaSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoGloria
+    \mvTr a'8\fE^\tutti cis h e a, e' d h
+    cis h h8. h16 h4 h8 a
+    gis a16([ h)] cis8 h a[ h16 cis] d8[ cis]
+    h[ cis16 d] e8[ d] cis4. h16[ a]
+    h2 cis4 r %5
+    R1*2
+    r4 \mvTr e8\pE^\solo e d!([ cis)] d h
+    cis4 r h4. h8
+    a2( gis4.) gis8 %10
+    fis2 r
+    R1
+    r2 r4 \mvTr a~\fE^\tutti
+    a8 a a4 cis cis8 cis
+    h4 ais cis8 cis ais cis %15
+    fis,4. gis16[ ais] h4. cis8
+    ais8. ais16 h2 ais4
+    h2 r
+    R1*12 %30
+    r2 \mvTr e8.\pE^\solo d16 cis4
+    d8 h e d cis4 h
+    r2 h4 h8 h
+    cis2~ cis8[ h] cis16[ d h cis]
+    d2~ d8[ cis] d16[ e cis d] %35
+    e2~ e8[ d16 cis] fis8[ e]
+    dis[ cis16 h] e2 dis4
+    e2 r
+    R1*2 %40
+    R1\fermata \bar "||" %41 finis
+  }
+}
+
+GloriaSopranoLyrics = \lyricmode {
+  Et in ter -- ra pax, in ter -- ra
+  pax ho -- mi -- ni -- bus bo -- nae,
+  bo -- nae vo -- lun -- ta -- _
+  _ _ _ _
+  _ tis. %5
+
+  Be -- ne -- di -- ci -- mus %8
+  te, ad -- o --
+  ra -- mus %10
+  te.
+
+  Gra --
+  ti -- as a -- gi -- mus
+  ti -- bi pro -- pter ma -- gnam %15
+  glo -- _ _ _
+  _ ri -- am tu --
+  am.
+
+  Do -- mi -- ne %31
+  De -- us, A -- gnus De -- i,
+  Fi -- li -- us
+  Pa -- _
+  _ _ %35
+  _ _
+  _ _ _
+  tris. %38 finis
+}
+
+% Qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% Qui tol -- lis pec -- ca -- ta mun -- di:
+% Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram.
+% Qui se -- des ad dex -- te -- ram Pa -- tris:
+% Mi -- se -- re -- re no -- bis.
+% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
+% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
+% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
