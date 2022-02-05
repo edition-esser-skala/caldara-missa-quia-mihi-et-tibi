@@ -183,3 +183,52 @@ GloriaBassFigures = \figuremode {
   r2 <6 5>4 <[_+]> %40
   r1 %41 finis
 }
+
+QuiTollisOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #42
+    r4 \mvTr h\fE-\tutti h2
+    h r8 h' h h
+    eis,1
+    fis2 r4 fis %45
+    dis1
+    d2. d4
+    cis1
+    fis,
+    r4 fis' gis2 %50
+    r8 a a a fis2
+    e \clef "treble_8" \mvTr e'4\pE-\solo cis
+    h2 e8 d cis h
+    ais2 h16 a? g fis e8 d
+    cis2 fis~ %55
+    fis h,4 \clef bass \tempoQuiSedes \mvTr h'\fE-\tutti
+    a!2 a
+    r4 g fis e
+    \tempoAdDexteram c1
+    h\fermata \bar "||" %60 finis
+  }
+}
+
+QuiTollisBassFigures = \figuremode {
+  r1 %42
+  r
+  <7>
+  <_+>2. <\t>4 %45
+  <6 5!>1
+  <4+ 2>
+  <7 _+>4 <6 4> <5 \t> <\t _+>
+  r1
+  r4 <5> <6!>2 %50
+  r2 <7>4 <6\\>
+  r2. <6\\>4
+  <_!>2 q
+  \bo <[6]>2. \bc <[_!]>4
+  r2 <7 _+>4 <6 4> %55
+  <5 \t> <\t _+>2.
+  <6 4+ _!>1
+  r4 <6> <6\\> <_!>
+  <7 [5!]>2 <6>
+  <_+>1 %60 finis
+}

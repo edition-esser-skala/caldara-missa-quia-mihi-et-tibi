@@ -89,3 +89,28 @@ GloriaViolinoI = {
     e1\fermata \bar "||" %41 finis
   }
 }
+
+QuiTollisViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #42
+    r4 d'\fE d2
+    d r8 h h h
+    h1
+    ais2 r4 ais8 ais %45
+    a2. a4
+    gis2. gis4
+    gis a gis2
+    fis1
+    r4 a h h %50
+    r8 cis e e e4 dis
+    e2 r
+    R1*3 %55
+    r2 r4 \tempoQuiSedes fis\fE
+    a!2 a
+    r4 h a g
+    \tempoAdDexteram e1
+    dis\fermata \bar "||" %60 finis
+  }
+}

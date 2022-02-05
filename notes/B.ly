@@ -140,3 +140,48 @@ GloriaBassoLyrics = \lyricmode {
   _ ter o -- mni -- po -- %25
   tens. %26 finis
 }
+
+QuiTollisBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #42
+    r4 \mvTr h\fE^\tutti h2
+    h r8 h' h h
+    eis,1
+    fis2 r4 fis8 fis %45
+    dis2. dis4
+    d2. d4
+    cis cis cis2
+    fis,1
+    r4 fis' gis gis %50
+    r8 a a a fis2
+    e r
+    R1*3 %55
+    r2 r4 \tempoQuiSedes \mvTr h'\fE^\tuttiE
+    a!2 a
+    r4 g fis e8 e
+    \tempoAdDexteram c1
+    h\fermata \bar "||" %60 finis
+  }
+}
+
+QuiTollisBassoLyrics = \lyricmode {
+  Qui tol -- %42
+  lis pec -- ca -- ta
+  mun --
+  di: Mi -- se -- %45
+  re -- re,
+  mi -- se --
+  re -- re no --
+  bis.
+  Qui tol -- lis %50
+  pec -- ca -- ta mun --
+  di:
+
+  Qui %56
+  se -- des
+  ad dex -- te -- ram
+  Pa --
+  tris: %60 finis
+}

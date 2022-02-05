@@ -69,3 +69,28 @@ GloriaViola = {
     h1\fermata \bar "||" %41 finis
   }
 }
+
+QuiTollisViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #42
+    r4 fis\fE fis2
+    fis r8 d d d
+    d1
+    cis2 r4 cis8 cis %45
+    h2. h4
+    h2.^\critnote h4
+    cis cis cis4. cis8
+    cis1
+    r4 cis h h %50
+    r8 a cis cis fis2
+    h, r
+    R1*3 %55
+    r2 r4 \tempoQuiSedes fis'\fE
+    fis2 fis
+    r4 g fis e
+    \tempoAdDexteram c1
+    h\fermata \bar "||" %60 finis
+  }
+}

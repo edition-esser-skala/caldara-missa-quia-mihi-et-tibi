@@ -138,3 +138,52 @@ GloriaAltoLyrics = \lyricmode {
   _ _
   tris. %38 finis
 }
+
+QuiTollisAlto = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #42
+    r4 \mvTr fis\fE^\tutti fis2
+    fis r8 fis fis fis
+    gis1
+    fis2 r4 fis8 fis %45
+    fis2. fis4
+    e2. e4
+    eis8 eis fis2( eis4)
+    fis1
+    r4 fis e! e %50
+    r8 e e e a2
+    gis \mvTr gis4\pE^\solo ais8 ais
+    h8. fis16 h4 r2
+    r h8 a g fis
+    e2. d4 %55
+    cis2 h4 \tempoQuiSedes \mvTr fis'\fE^\tutti
+    fis2 fis
+    r4 g a g8 g
+    \tempoAdDexteram e2.( a4)
+    fis1\fermata \bar "||" %60 finis
+  }
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+  Qui tol -- %42
+  lis pec -- ca -- ta
+  mun --
+  di: Mi -- se -- %45
+  re -- re,
+  mi -- se --
+  re -- re no --
+  bis.
+  Qui tol -- lis %50
+  pec -- ca -- ta mun --
+  di: Su -- sci -- pe,
+  su -- sci -- pe
+  de -- pre -- ca -- ti --
+  o -- nem %55
+  no -- stram. Qui
+  se -- des
+  ad dex -- te -- ram
+  Pa --
+  tris: %60 finis
+}

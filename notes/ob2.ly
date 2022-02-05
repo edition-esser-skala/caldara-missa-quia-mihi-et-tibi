@@ -62,3 +62,28 @@ GloriaOboeII = {
     e1\fermata \bar "||" %41 finis
   }
 }
+
+QuiTollisOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #42
+    r4 h'\fE h2
+    h r8 fis fis fis
+    gis1
+    fis2 r4 fis8 fis %45
+    fis2. fis4
+    e2. e4
+    eis8 eis fis2 eis4
+    fis1
+    r4 fis e e %50
+    r8 e e e a2
+    gis r
+    R1*3 %55
+    r2 r4 \tempoQuiSedes h\fE
+    c2 c
+    r4 h dis h~
+    \tempoAdDexteram h a8[ g] a2
+    h1\fermata \bar "||" %60 finis
+  }
+}
