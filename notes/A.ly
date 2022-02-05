@@ -161,8 +161,60 @@ QuiTollisAlto = {
     cis2 h4 \tempoQuiSedes \mvTr fis'\fE^\tutti
     fis2 fis
     r4 g a g8 g
-    \tempoAdDexteram e2.( a4)
+    \tempoAdDexteram e2.( a4) \noBreak
     fis1\fermata \bar "||" %60 finis
+    \time 3/2 \tempoMiserere \newSpacingSection
+      r2 e4( fis g a) \noBreak
+    h2 fis h
+    gis!4( fis) gis( a) fis( gis)
+    a2 e a4 g
+    fis e fis g e fis %65
+    g2 d g~
+    g fis e
+    d2. cis4 d e
+    cis1.
+    h1 r2 %70
+    r fis'4( gis ais2)
+    h fis h
+    h4( a!) h( a) gis!( h)
+    a2 e r
+    r r a~ %75
+    a g fis~
+    fis e4 dis e2
+    a( \once \stemUp h4 a g fis)
+    g2 g4( a) h( c)
+    fis,2 fis r %80
+    r r h~
+    h a4( g) a2~
+    a4 g a( h) a2~
+    a g4 fis g2~
+    g fis4 e fis2 %85
+    g g1
+    fis1.
+    f
+    e2 e4( fis) g( a)
+    d,2( e4 fis) g2 %90
+    g4 f g a f g
+    a2 e f~
+    f e1
+    e r2
+    e4( fis!) gis!( a) h2 %95
+    \once \tieDashed a1.~
+    a
+    g~
+    g
+    fis %100
+    fis
+    r2 r fis~
+    fis e4( dis) e2~
+    e4 fis dis1
+    e2 e e %105
+    f1.
+    e
+    e1^\critnote e2
+    fis!4( e fis2) g
+    fis1. %110
+    gis!\fermata \bar "||" %111 finis
   }
 }
 
@@ -185,5 +237,56 @@ QuiTollisAltoLyrics = \lyricmode {
   se -- des
   ad dex -- te -- ram
   Pa --
-  tris: %60 finis
+  tris: %60
+  Qui __
+  se -- des ad
+  dex -- te -- ram
+  Pa -- tris: Mi -- se --
+  re -- _ _ _ _ _ %65
+  _ re, mi --
+  se -- re --
+  _ _ _ re
+  no --
+  bis. %70
+  Qui __
+  se -- des ad
+  dex -- te -- ram
+  Pa -- tris:
+  Mi -- %75
+  se -- re --
+  _ _ re
+  no --
+  bis, mi -- se --
+  re -- re, %80
+  mi --
+  se -- re --
+  _ re __ no --
+  _ _ _
+  _ _ _ %85
+  bis, mi --
+  se --
+  re --
+  re, mi -- se --
+  re -- re %90
+  no -- _ _ _ _ _
+  _ _ _
+  _
+  bis,
+  mi -- se -- re -- %95
+  _
+
+  re __
+
+  no -- %100
+  bis,
+  mi --
+  se -- re --
+  re no --
+  bis, mi -- se -- %105
+  re --
+  re,
+  mi -- se --
+  re -- re
+  no -- %110
+  bis. %111 finis
 }

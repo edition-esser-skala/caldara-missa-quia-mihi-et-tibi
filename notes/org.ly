@@ -206,8 +206,78 @@ QuiTollisOrgano = {
     fis h,4 \clef bass \tempoQuiSedes \mvTr h'\fE-\tutti
     a!2 a
     r4 g fis e
-    \tempoAdDexteram c1
-    h\fermata \bar "||" %60 finis
+    \tempoAdDexteram c1 \noBreak
+    h\fermata \bar "||" %60
+    \clef treble \time 3/2 \tempoMiserere \newSpacingSection << {
+      e''1. \noBreak
+      dis
+      d
+      cis
+      c %65
+      h2.^\critnote d4 cis h
+      ais1.
+      h2 fis h~
+      h ais1
+    } \\ {
+      r2 e4 fis g a
+      h2 fis h
+      gis!4 fis gis a fis gis
+      a2 e a4 g
+      fis e fis g e fis %65
+      g2 d g~
+      g fis e
+      d2._\critnote cis4 d e
+      cis1.
+    } >>
+    \clef bass h %70
+    ais
+    a
+    gis
+    g
+    fis2. g4 fis e %75
+    dis1.
+    e2 h e~
+    e dis1
+    e2 e4 fis g a
+    h2 h, h' %80
+    gis!4 fis gis a fis gis
+    a2 a, a'4 g
+    fis e fis g e fis
+    g2 g, g'
+    c, d1 %85
+    g, \clef treble << {
+      h''4 c
+      d2 a d
+      h4 a h c a h
+      c2
+    } \\ {
+      g2
+      fis1.
+      f
+      e2
+    } >> \clef bass c,4 d e fis!
+    g2 d g %90
+    e4 d e f d e
+    f2 c f
+    d e e,
+    a a'1
+    gis!1. %95
+    g
+    fis
+    f
+    e~
+    e2 d cis %100
+    d1.
+    dis
+    e2 g e
+    h1.
+    e2 e1 %105
+    d!1.
+    c~
+    c
+    h~
+    h %110
+    e,\fermata \bar "||" %111 finis
   }
 }
 
@@ -230,5 +300,56 @@ QuiTollisBassFigures = \figuremode {
   <6 4+ _!>1
   r4 <6> <6\\> <_!>
   <7 [5!]>2 <6>
-  <_+>1 %60 finis
+  <_+>1 %60
+  r1.
+  r
+  r
+  r
+  r %65
+  r
+  r
+  r
+  r
+  r %70
+  <6>
+  <6 4+ 2>
+  <6>
+  <6 4 2>
+  <6>1 <5!>2 %75
+  <7! 5> <6 4!> <5 3>
+  <9 _!> \bo <[6! 4]>4 \bc <[5 _+]> <_!>2
+  <[6!] 4 2> <6>1
+  <_!>1 \bo <[6]>4 \bc <[_!]>
+  <_+>1. %80
+  <6 5!>
+  <9>2 <8>1
+  <6 5!>1.
+  <9>2 <8>1
+  <6 5>1. %85
+  r
+  r
+  r
+  r2 <[5!]>1
+  r1. %90
+  <6! 5->
+  <5!>2 <6>1
+  <6 5 _!>2 <4> <_+>
+  <_!> <\t>1
+  <[6]>1. %95
+  <6 4+ 2>
+  <6>
+  <6 4 2!>
+  <6! _!>
+  <[6+] 4+ 2+>2 <6> <6\\> %100
+  <7>1 <6>2
+  <[\t]> <6 5!>1
+  <9 [_!]>2 \bo <[6]> \bc <[_!]>
+  <4>2 <_+>1
+  <_!>1. %105
+  <6 4+ _!>
+  <6>
+  <6\\>
+  <5 _+>1 <6! 4>2
+  <5 4> <\t _+>1 %110
+  <[_+]>1. %111 finis
 }

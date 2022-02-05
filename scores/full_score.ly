@@ -221,7 +221,7 @@
         \new FiguredBass { \QuiTollisBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 170 }
     }
   }
 }

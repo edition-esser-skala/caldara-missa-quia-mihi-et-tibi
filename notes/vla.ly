@@ -90,7 +90,50 @@ QuiTollisViola = {
     r2 r4 \tempoQuiSedes fis'\fE
     fis2 fis
     r4 g fis e
-    \tempoAdDexteram c1
-    h\fermata \bar "||" %60 finis
+    \tempoAdDexteram c1 \noBreak
+    h\fermata \bar "||" %60
+    \time 3/2 \tempoMiserere \newSpacingSection
+      R1.*9 %69
+    r2 h4 cis d e %70
+    fis2 cis fis
+    dis4 cis dis e cis dis
+    e2 h e4 d
+    cis4 h cis d h cis
+    d2 a c~ %75
+    c h a
+    g2. fis4 g a
+    fis1.
+    e1 r2
+    r h'4 cis dis?2 %80
+    e h e~
+    e1.
+    d
+    d
+    e4 e d1 %85
+    d1 r2
+    R1.*2
+    c1.
+    h %90
+    b
+    a1 a2~
+    a1^\critnote gis2
+    a c4 d e f
+    e1.~ %95
+    e
+    d~
+    d
+    e
+    cis! %100
+    r2 h4 cis d e
+    fis1 h,2
+    h1.~
+    h
+    h2 h h %105
+    h1.
+    c
+    e1 e2
+    dis4 cis! dis2 e~
+    e dis1 %110
+    e1.\fermata \bar "||" %111 finis
   }
 }

@@ -83,7 +83,57 @@ QuiTollisOboeII = {
     r2 r4 \tempoQuiSedes h\fE
     c2 c
     r4 h dis h~
-    \tempoAdDexteram h a8[ g] a2
-    h1\fermata \bar "||" %60 finis
+    \tempoAdDexteram h a8[ g] a2 \noBreak
+    h1\fermata \bar "||" %60
+    \time 3/2 \tempoMiserere \newSpacingSection
+      e1. \noBreak
+    dis
+    d
+    cis
+    c %65
+    h2. d4 cis h
+    ais1.
+    h2 fis h~
+    h ais1
+    h2 d d %70
+    cis1.
+    fis,2 fis' fis
+    e1.~
+    e
+    a, %75
+    R1.*3
+    e'1.
+    dis %80
+    d
+    cis
+    c
+    h
+    a %85
+    h2 g4 a h c
+    d2 a d
+    h4 a h c a h
+    c2 g r
+    r d' d %90
+    c1.~
+    c
+    h2 h1
+    a2 a4 h c d
+    e2 h e %95
+    cis!4 h cis d h cis
+    d2 a d4 c
+    h a h c a h
+    c2 e c
+    ais h cis~ %100
+    cis fis, h~
+    h a!4 g a h
+    g2. fis4 g a
+    fis1.
+    e2 g g %105
+    gis1.
+    a
+    ais1 ais2
+    h1 h2
+    h1. %110
+    h\fermata \bar "||" %111 finis
   }
 }

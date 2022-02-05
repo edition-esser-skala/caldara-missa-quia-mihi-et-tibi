@@ -162,8 +162,51 @@ QuiTollisTenore = {
     fis h4 \tempoQuiSedes \mvTr d\fE^\tuttiE
     dis2 dis
     r4 e fis8. fis16 h,4~
-    \tempoAdDexteram h a8[( g] a2)
-    h1\fermata \bar "||" %60 finis
+    \tempoAdDexteram h a8[( g] a2) \noBreak
+    h1\fermata \bar "||" %60
+    \time 3/2 \tempoMiserere \newSpacingSection
+      R1.*9 %69
+    r2 h4( cis d e) %70
+    fis2 cis fis
+    dis4( cis) dis( e) cis( dis)
+    e2 h e4 d
+    cis4 h cis d h cis
+    d2 a c~ %75
+    c h a
+    g2. fis4 g( a)
+    fis1.
+    e1 r2
+    r h'4( cis) dis?2 %80
+    e h e~
+    e1.
+    d
+    d
+    e4 e d1 %85
+    d1 r2
+    R1.*2
+    c1.
+    h %90
+    b
+    a1 a2~
+    a1^\critnote gis2
+    a c4( d) e( f)
+    e1.~ %95
+    e
+    d~
+    d
+    e
+    cis! %100
+    r2 h4( cis) d( e)
+    fis1 h,2
+    h1.~
+    h
+    h2 h h %105
+    h1.
+    c
+    e1 e2
+    dis4( cis! dis2) e~
+    e dis1 %110
+    e1.\fermata \bar "||" %111 finis
   }
 }
 
@@ -187,4 +230,46 @@ QuiTollisTenoreLyrics = \lyricmode {
   ad dex -- te -- ram __
   Pa --
   tris: %60 finis
+
+  Qui __ %70
+  se -- des ad
+  dex -- te -- ram
+  Pa -- tris: Mi -- se --
+  re -- _ _ _ _ _
+  _ re, mi -- %75
+  se -- re --
+  _ _ re __
+  no --
+  bis,
+  mi -- se -- %80
+  re -- re, mi --
+
+  se --
+  re --
+  _ re no -- %85
+  bis,
+
+  mi -- %89
+  se -- %90
+  re --
+  re no --
+  _
+  bis, mi -- se --
+  re -- %95
+
+  re __
+
+  no --
+  bis, %100
+  mi -- se --
+  re -- re
+  no --
+
+  bis, mi -- se -- %105
+  re --
+  re,
+  mi -- se --
+  re -- re __
+  no -- %110
+  bis. %111 finis
 }

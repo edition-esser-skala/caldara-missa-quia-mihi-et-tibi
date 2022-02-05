@@ -161,8 +161,50 @@ QuiTollisBasso = {
     r2 r4 \tempoQuiSedes \mvTr h'\fE^\tuttiE
     a!2 a
     r4 g fis e8 e
-    \tempoAdDexteram c1
-    h\fermata \bar "||" %60 finis
+    \tempoAdDexteram c1 \noBreak
+    h\fermata \bar "||" %60
+    \time 3/2 \tempoMiserere \newSpacingSection R1.*9 %69
+    h'1. %70
+    ais
+    a
+    gis
+    g
+    fis2.( g4) fis e %75
+    dis1.
+    e2 h e~
+    e dis1
+    e2 e4( fis g a)
+    h2 h, h' %80
+    gis!4( fis) gis( a) fis( gis)
+    a2 e a4 g
+    fis e fis g e fis
+    g2 d g
+    c, d1 %85
+    g,1 r2
+    R1.*2
+    r2 c4( d e fis!)
+    g2 d g %90
+    e4( d) e( f) d( e)
+    f2 c f4 f
+    d d e1
+    a,2 a'1
+    gis1. %95
+    g
+    fis
+    f
+    e~
+    e2 d cis %100
+    d1.
+    dis
+    e2 g e
+    h1.
+    e2 e e %105
+    d!1.
+    c
+    c1 c2
+    h1 h2
+    h1. %110
+    e\fermata \bar "||" %111 finis
   }
 }
 
@@ -184,4 +226,46 @@ QuiTollisBassoLyrics = \lyricmode {
   ad dex -- te -- ram
   Pa --
   tris: %60 finis
+
+  Mi -- %70
+  se --
+  re --
+  re,
+  mi --
+  se -- re -- _ %75
+  _
+  _ re no --
+  _
+  bis. Qui __
+  se -- des ad %80
+  dex -- te -- ram
+  Pa -- tris: Mi -- se --
+  re -- _ _ _ _ _
+  _ _ _
+  re no -- %85
+  bis.
+
+  Qui __ %89
+  se -- des ad %90
+  dex -- te -- ram
+  Pa -- tris: Mi -- se --
+  re -- re no --
+  bis, mi --
+  se -- %95
+  re --
+  re,
+  mi --
+  se --
+  re -- re %100
+  no --
+  _
+  _ _ _
+  _
+  bis, mi -- se -- %105
+  re --
+  re,
+  mi -- se --
+  re -- re
+  no -- %110
+  bis. %111 finis
 }

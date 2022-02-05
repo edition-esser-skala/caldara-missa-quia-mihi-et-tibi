@@ -166,8 +166,58 @@ QuiTollisSoprano = {
     h ais h \tempoQuiSedes \mvTr h\fE^\tutti
     c2 c
     r4 h dis e8 e
-    \tempoAdDexteram e1
+    \tempoAdDexteram e1 \noBreak
     dis\fermata \bar "||" %60
+    \time 3/2 \tempoMiserere \newSpacingSection
+      e1. \noBreak
+    dis
+    d
+    cis
+    c %65
+    h2.( d4 cis h)
+    ais1.
+    h2 fis h~
+    h ais1
+    h2 d d %70
+    cis1.
+    fis,2 fis' fis
+    e1.~
+    e
+    a, %75
+    R1.*3
+    e'1.
+    dis %80
+    d
+    cis
+    c
+    h
+    a %85
+    h2 g4( a h c)
+    d2 a d
+    h4( a) h( c) a( h)
+    c2 g r
+    r d' d %90
+    c1.~
+    c
+    h2 h1
+    a2 a4( h c d)
+    e2 h e %95
+    cis!4( h) cis( d) h( cis)
+    d2 a d4( c)
+    h( a) h c a h
+    c2 e c
+    ais h cis~ %100
+    cis fis, h~
+    h a!4 g a h
+    g2. fis4 g a
+    fis1.
+    e2 g g %105
+    gis1.
+    a
+    ais1 ais2
+    h1 h2
+    h1. %110
+    h\fermata \bar "||" %111 finis
   }
 }
 
@@ -191,9 +241,57 @@ QuiTollisSopranoLyrics = \lyricmode {
   ad dex -- te -- ram
   Pa --
   tris: %60 finis
+  Mi --
+  se --
+  re --
+  re,
+  mi -- %65
+  se --
+  re --
+  _ re no --
+  _
+  bis, mi -- se -- %70
+  re --
+  re, mi -- se --
+  re --
+
+  re, %75
+
+  mi -- %79
+  se -- %80
+  re --
+  re
+  no --
+  _
+  _ %85
+  bis. Qui __
+  se -- des ad
+  dex -- te -- ram
+  Pa -- tris:
+  Mi -- se -- %90
+  re --
+
+  re no --
+  bis. Qui __
+  se -- des ad %95
+  dex -- te -- ram
+  Pa -- tris: Mi --
+  se -- re -- _ _ _
+  _ _ re
+  no -- _ _ %100
+  _ _
+  _ _ _ _
+  _ _ _ _
+  _
+  bis, mi -- se -- %105
+  re --
+  re,
+  mi -- se --
+  re -- re
+  no -- %110
+  bis. %111 finis
 }
 
-% Mi -- se -- re -- re no -- bis.
 % Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
 % tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
 % Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
