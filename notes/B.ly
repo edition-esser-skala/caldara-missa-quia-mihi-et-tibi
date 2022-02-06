@@ -269,3 +269,84 @@ QuiTollisBassoLyrics = \lyricmode {
   no -- %110
   bis. %111 finis
 }
+
+QuoniamBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #112
+    R1*21 %132
+    \time 2/2 \tempoCumSancto \newSpacingSection R1*12 %144
+    \mvTr e1\fE^\tuttiE %145
+    fis
+    e
+    fis2 gis
+    a r4 a
+    gis fis e d %150
+    cis h a2
+    a' gis4( fis)
+    gis( fis) gis( e)
+    h'2 h,
+    e2. cis4 %155
+    a a h2
+    e1
+    R1*2
+    e1 %160
+    fis
+    e
+    fis2 gis
+    a r4 a
+    gis fis e d %165
+    cis h a2
+    d d
+    e1
+    e2 r
+    a,1 %170
+    h
+    a
+    cis2 dis
+    e r4 e
+    d cis h a %175
+    gis2 a4 a
+    e' e a a
+    e1
+    a,\breve*1/2\fermata \bar "|." %179 finis
+  }
+}
+
+QuoniamBassoLyrics = \lyricmode {
+  Cum %145
+  San --
+  cto
+  Spi -- ri --
+  tu in
+  glo -- ri -- a, in %150
+  glo -- ri -- a
+  De -- i __
+  Pa -- tris,
+  a -- men,
+  De -- i %155
+  Pa -- tris, a --
+  men,
+
+  cum %160
+  San --
+  cto
+  Spi -- ri --
+  tu in
+  glo -- ri -- a, in %165
+  glo -- ri -- a
+  De -- i
+  Pa --
+  tris,
+  cum %170
+  San --
+  cto
+  Spi -- ri --
+  tu in
+  glo -- ri -- a, in %175
+  glo -- ri -- a
+  De -- i Pa -- tris,
+  a --
+  men. %179 finis
+}

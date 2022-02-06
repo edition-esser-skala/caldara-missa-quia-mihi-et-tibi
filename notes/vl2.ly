@@ -164,3 +164,72 @@ QuiTollisViolinoII = {
     gis!\fermata \bar "||" %111 finis
   }
 }
+
+QuoniamViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #112
+    a'8.\fE h16 cis8 a e' cis fis4
+    e r8 gis fis e4 a8~
+    a gis fis8.\trill fis16 e8 e h cis
+    d!4. cis16 h cis8 cis fis4~ %115
+    fis8 h, e4. d16 cis d4~
+    d8 cis h8.\trill h16 a4 r
+    R1
+    r2 a8.\p h16 cis8 a
+    r2 e8. fis16 gis8 e %120
+    h' gis cis4 h r8 e,
+    a a h h gis gis a a
+    fis fis gis gis e e fis fis
+    h, h cis cis a a h h
+    e4 r r8 h'\f e,32( fis gis8.) %125
+    a8 e r4 r2
+    r4 e'2\p d4~
+    d cis2 h8 a
+    gis4 a2 gis4
+    a cis2\f h4~ %130
+    h8 e, a2 gis4 \noBreak
+    cis,2 h
+    \time 2/2 \tempoCumSancto a r \noBreak
+    R1*7 %140
+    a'1
+    h
+    a
+    cis2 dis
+    e r4 e %145
+    dis cis h a
+    gis fis e2
+    d'! cis4 h
+    cis h cis a
+    e'2 e, %150
+    R1*2
+    r2 r4 e'
+    dis cis h a
+    gis fis8 fis e2~ %155
+    e4 e4 dis2
+    e1
+    e'
+    fis
+    e %160
+    cis2 dis
+    e e~
+    e d!~
+    d4 d4 cis2
+    h4 a gis fis %165
+    e2 a~
+    a h~
+    h cis
+    h4 a gis2
+    r r4 e' %170
+    d cis h a
+    cis2 cis4 cis
+    e2 fis
+    h, cis
+    d1 %175
+    r2 e-!
+    e-! cis
+    h2.\trill h4
+    cis\breve*1/2\fermata \bar "|." %179 finis
+  }
+}

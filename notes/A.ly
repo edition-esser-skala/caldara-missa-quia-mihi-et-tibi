@@ -290,3 +290,94 @@ QuiTollisAltoLyrics = \lyricmode {
   no -- %110
   bis. %111 finis
 }
+
+QuoniamAlto = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #112
+    R1*21 %132
+    \time 2/2 \tempoCumSancto \newSpacingSection R1*4 %136
+    \mvTr e1\fE^\tuttiE
+    fis
+    e
+    fis2 gis %140
+    a r4 a
+    gis fis e d
+    cis h a2
+    a' gis4( fis)
+    gis( fis) gis( e) %145
+    a2 a,
+    h1
+    a2 r
+    R1*2 %150
+    e'1
+    fis
+    e
+    fis2 fis
+    e4 fis gis4. gis8 %155
+    fis2 r4 h
+    gis fis e d!
+    cis h a2
+    a'1
+    h %160
+    a2 fis
+    gis1
+    a2 r
+    R1*4 %167
+    r2 r4 a
+    gis fis e d
+    cis h a2 %170
+    d4 e fis gis
+    a e a2~
+    a gis4 fis
+    gis2 fis4 e
+    fis1 %175
+    e^\critnote
+    e~
+    e
+    e\breve*1/2\fermata \bar "|." %179 finis
+  }
+}
+
+QuoniamAltoLyrics = \lyricmode {
+  Cum %137
+  San --
+  cto
+  Spi -- ri -- %140
+  tu in
+  glo -- ri -- a, in
+  glo -- ri -- a
+  De -- i __
+  Pa -- tris, %145
+  a -- men,
+  a --
+  men,
+
+  cum %151
+  San --
+  cto
+  Spi -- ri --
+  tu in glo -- ri -- %155
+  a, in
+  glo -- ri -- a, in
+  glo -- ri -- a,
+  cum
+  San -- %160
+  cto Spi --
+  ri --
+  tu
+
+  in %168
+  glo -- ri -- a, in
+  glo -- ri -- a %170
+  De -- i Pa -- tris,
+  a -- _ _
+  _ _
+  _ _ _
+  _ %175
+  \xE men,
+  a --
+
+  \x men. %179 finis
+}

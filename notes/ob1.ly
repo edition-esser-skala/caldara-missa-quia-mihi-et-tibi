@@ -138,3 +138,65 @@ QuiTollisOboeI = {
     h\fermata \bar "||" %111 finis
   }
 }
+
+QuoniamOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #112
+    R1
+    e'8.\fE fis16 gis8 e h' gis cis4
+    h8 e,4 dis8 e4 r
+    r8 h' fis gis a4. gis16 fis %115
+    gis4. fis16 e fis8 fis h a
+    gis a4 gis8 a4 r
+    R1*7
+    r8 e\fE h cis d!4. cis16 h %125
+    cis4 r r2
+    R1*3
+    r2 d2\fE %130
+    cis h~ \noBreak
+    h8 e, a2 gis4
+    \time 2/2 \tempoCumSancto a2 r \noBreak
+    R1*3 %136
+    e'1
+    fis
+    e
+    fis2 gis %140
+    a r4 a
+    gis fis e d
+    cis h a2
+    a' gis4 fis
+    gis fis gis e %145
+    a2 a,
+    h1
+    a2 r
+    R1*2 %150
+    e'1
+    fis
+    e
+    fis2 fis
+    e4 fis gis4. gis8 %155
+    fis2 r4 h
+    gis fis e d!
+    cis h a2
+    a'1
+    h %160
+    a2 fis
+    gis1
+    a2 r
+    R1*4 %167
+    r2 r4 a
+    gis fis e d
+    cis h a2 %170
+    d4 e fis gis
+    a e a2~
+    a gis4 fis
+    gis2 fis4 e
+    fis e d fis %175
+    e d cis a'
+    gis2 a~
+    a gis
+    a\breve*1/2\fermata \bar "|." %179 finis
+  }
+}

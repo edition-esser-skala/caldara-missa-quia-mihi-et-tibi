@@ -273,3 +273,106 @@ QuiTollisTenoreLyrics = \lyricmode {
   no -- %110
   bis. %111 finis
 }
+
+QuoniamTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \major \time 4/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #112
+    R1*21 %132
+    \time 2/2 \tempoCumSancto \newSpacingSection
+      \mvTr a1\fE^\tuttiE
+    h
+    a %135
+    cis2 dis
+    e r4 e
+    dis cis h a
+    gis fis e2
+    d'!2 cis4( h) %140
+    cis( h) cis( a)
+    e'2 e,
+    fis1~
+    fis
+    e %145
+    R1*3
+    a1
+    h %150
+    a
+    cis2 dis
+    e h
+    h2. h4
+    h2 h4 cis %155
+    cis cis h2^\critnote
+    h1
+    r2 r4 e
+    d cis h a
+    gis fis e2 %160
+    a1
+    h
+    a2( h)
+    cis2. dis4
+    e1 %165
+    r2 r4 e
+    d cis h a
+    gis fis e2
+    h'1
+    cis %170
+    h
+    e2. e4
+    cis2 h
+    h a4 gis
+    a2 a %175
+    h a
+    gis cis
+    h1
+    cis\breve*1/2\fermata \bar "|." %179 finis
+  }
+}
+
+QuoniamTenoreLyrics = \lyricmode {
+  Cum %133
+  San --
+  cto %135
+  Spi -- ri --
+  tu in
+  glo -- ri -- a, in
+  glo -- ri -- a
+  De -- i __ %140
+  Pa -- tris,
+  a -- men,
+  a --
+
+  men, %145
+
+  cum %149
+  San -- %150
+  cto
+  Spi -- ri --
+  tu in
+  glo -- ri --
+  a De -- i %155
+  Pa -- tris, a --
+  men,
+  in
+  glo -- ri -- a, in
+  glo -- ri -- a, %160
+  cum
+  San --
+  cto __
+  Spi -- ri --
+  tu %165
+  in
+  glo -- ri -- a, in
+  glo -- ri -- a,
+  cum
+  San -- %170
+  cto
+  Spi -- ri --
+  tu in
+  glo -- ri -- a
+  De -- i %175
+  Pa -- tris,
+  a -- men,
+  a --
+  men. %179 finis
+}

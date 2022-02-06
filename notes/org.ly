@@ -353,3 +353,152 @@ QuiTollisBassFigures = \figuremode {
   <5 4> <\t _+>1 %110
   <[_+]>1. %111 finis
 }
+
+QuoniamOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #112
+    \mvTr a'4\fE-\solo r8 a gis a d,16 e fis gis
+    a4 e dis8 e a a,
+    e'16 fis gis a h8 h, e e gis a
+    h h, r h' a4 dis, %115
+    e4. e8 h' h, d h
+    e fis d e a,4 r8 a'\p
+    gis a d,16 e fis gis a8. h16 cis8 a
+    gis a fis gis a a, r a'
+    d,4 dis e r %120
+    e cis8 dis e e, r4
+    R1*3
+    r8 e'\f gis a h4. h8 %125
+    a4 gis8\p a fis h gis4
+    a e r2
+    R1*2
+    r8 a,\f cis a fis fis gis gis %130
+    a a cis a e' e gis e \noBreak
+    a, h cis a d h e e,
+    \time 2/2 \tempoCumSancto \newSpacingSection
+      a2 \clef "treble_8" a'-!-\tuttiE \noBreak
+    h1-!
+    a-! %135
+    cis2-! dis-!
+    << {
+      e1
+      fis
+      e
+      fis2 gis %140
+    } \\ {
+      e2 r4 e
+      dis4 cis h a
+      gis fis e2
+      d'! cis4 h %140
+    } >>
+    cis h cis a
+    e'2 e,
+    fis1~
+    fis
+    \clef bass e %145
+    fis
+    e
+    fis2 gis
+    a r4 a
+    gis fis e d %150
+    cis h a2
+    a' fis
+    gis4 fis gis e
+    h'2 h,
+    e2. cis4 %155
+    a2 h
+    e1
+    \clef treble << { e''1^\critnote } \\ { cis,4 h a2 } >>
+    \clef "treble_8" d4 cis h a
+    \clef bass e1 %160
+    fis
+    e
+    fis2 gis
+    a1
+    gis4 fis e d %165
+    cis h a2
+    d1
+    e
+    e
+    a, %170
+    h
+    a
+    cis2 dis
+    e2. e4
+    d cis h a %175
+    gis2 a
+    e' a,
+    e' e,
+    a\breve*1/2\fermata \bar "|." %179 finis
+  }
+}
+
+QuoniamBassFigures = \figuremode {
+  r2 <[6]> %112
+  r q
+  <5 4>8 \bo <[6]> \bc <[4]> <_+>4. <[6]>4
+  <5 _!>4. \bo <[6]> \bc q4 %115
+  <9> <8> <5 4> <6>
+  <7> <6 5>2.
+  \bo <[6]>2. \bc q8 <6>
+  \bo <[6 \l]>4 <6>8 \bc <[6 5]> r2
+  <6>4 \bo <[\t]>8 \bc <[5]> r2 %120
+  r4 <6>2.
+  r1*3
+  r4 <[6]> <5 _!> <6> %125
+  r4 \bo <[6]> <6> \bc <[6]>
+  r1
+  r1*2
+  r2 <6 5> %130
+  <9>4 <[6]> <5 4> <[6]>
+  <9> <[6]> <6 5>2
+  r1
+  r
+  r %135
+  r
+  r
+  r
+  r
+  r %140
+  <6>
+  r
+  r
+  <5>2 <6\\>
+  r1 %145
+  <6\\>
+  r
+  <6!>2 <6 5>
+  r1
+  \bo <[6]> %150
+  \bc q
+  <6>2 <6\\>
+  \bo <[6]>1
+  \bc <[_+]>
+  r %155
+  <6 5>2 <_+>
+  r1
+  r
+  r
+  r %160
+  <5>2 <6\\>
+  r1
+  <7>2 <5!>
+  <5 4> <\t 3>4 <4+ 2>
+  <6>1 %165
+  <[6]>
+  <5>2 <6>
+  <5 3> <6 4>
+  <5 3>1
+  r %170
+  r
+  r
+  <6>2 <[6 5]>
+  <5> <6>
+  \bo <[5]>2. \bassFigureExtendersOn \bc q4 \bassFigureExtendersOff %175
+  <6 5>1
+  r
+  <4>2 <3>
+  r1 %179 finis
+}

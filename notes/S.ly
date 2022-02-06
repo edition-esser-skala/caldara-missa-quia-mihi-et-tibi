@@ -292,6 +292,121 @@ QuiTollisSopranoLyrics = \lyricmode {
   bis. %111 finis
 }
 
-% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
-% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
-% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
+QuoniamSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #112
+    R1*5 %116
+    r2 \mvTr a'8.\pE^\solo h16 cis8 a
+    e' cis fis4 e r8 fis
+    e a, d8. cis16 cis4 r8 cis
+    h([ cis)] h a gis8. fis16 e4 %120
+    r2 r4 e'~
+    e d2 cis4~
+    cis h2 a4~
+    a gis fis2
+    e r %125
+    r8 e' h cis d4 e16([ d)] cis([ h)]
+    cis8. h16 h4 fis'2
+    e d~
+    d4 cis h2
+    a r %130
+    R1*2
+    \time 2/2 \tempoCumSancto \newSpacingSection R1*8 %140
+    \mvTr a1\fE^\tuttiE
+    h
+    a
+    cis2 dis
+    e r4 e %145
+    dis cis h a
+    gis fis e2
+    d'! cis4( h)
+    cis( h) cis( a)
+    e'2 e, %150
+    R1*2
+    r2 r4 e'
+    dis cis h a
+    gis fis8 fis e2~ %155
+    e4 e4 dis2
+    e1
+    e'
+    fis
+    e %160
+    cis2 dis
+    e e~
+    e d!~
+    d4 d4 cis2
+    h4 a gis( fis) %165
+    e2 a~
+    a h~
+    h cis
+    h4 a gis2
+    r r4 e' %170
+    d cis h a
+    cis2 cis4 cis
+    e2 fis
+    h, cis
+    d1~ %175
+    d2 cis
+    h a~
+    a gis
+    a\breve*1/2\fermata \bar "|." %179 finis
+  }
+}
+
+QuoniamSopranoLyrics = \lyricmode {
+  Quo -- ni -- am tu %117
+  so -- lus san -- ctus, tu
+  so -- lus Do -- mi -- nus, tu
+  so -- lus al -- tis -- si -- mus, %120
+  Je --
+  _ _
+  su, Je --
+  su Chri --
+  ste, %125
+  tu so -- lus, so -- lus al --
+  tis -- si -- mus, Je --
+  su, Je --
+  su Chri --
+  ste. %130
+
+  Cum %141
+  San --
+  cto
+  Spi -- ri --
+  tu in %145
+  glo -- ri -- a, in
+  glo -- ri -- a
+  De -- i __
+  Pa -- tris,
+  a -- men, %150
+
+  in %153
+  glo -- ri -- a, in
+  glo -- ri -- a De -- %155
+  i Pa --
+  tris,
+  cum
+  San --
+  cto %160
+  Spi -- ri --
+  tu in __
+  glo --
+  ri -- a
+  De -- i Pa -- %165
+  tris, cum __
+  San --
+  cto
+  Spi -- ri -- tu
+  in %170
+  glo -- ri -- a, in
+  glo -- ri -- a
+  De -- i
+  Pa -- tris,
+  a -- %175
+  men,
+  a -- _
+  _
+  men. %179 finis
+}

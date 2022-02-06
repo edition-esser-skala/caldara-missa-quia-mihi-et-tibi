@@ -137,3 +137,77 @@ QuiTollisViola = {
     e1.\fermata \bar "||" %111 finis
   }
 }
+
+QuoniamViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #112
+    e4\fE r8 cis h a a'8. h16
+    cis8 a h4 r8 h a4
+    r8 h h8. h16 h4 r8 a
+    fis gis a h a e r h' %115
+    h,4 r8 h' h,4 r8 h'
+    h, fis' d e a,4 r
+    R1
+    r2 a4\p r
+    r2 h4 r %120
+    r2 r4 r8 e
+    a a h h gis gis a a
+    fis fis gis gis e e fis fis
+    h, h cis cis a a h h
+    e4 r8 a\f fis gis16 a h8. h16 %125
+    e,4 r r2
+    r4 r8 gis\p a a h h
+    gis gis a a h, cis d h
+    e e fis fis d h e e,
+    a cis\f e cis fis fis gis gis %130
+    a a, cis a e e' gis e \noBreak
+    a a, cis a d h e e,
+    \time 2/2 \tempoCumSancto \newSpacingSection a1 \noBreak
+    h
+    a %135
+    cis2 dis
+    e r4 e
+    dis cis h a
+    gis fis e2
+    d'!2 cis4 h %140
+    cis h cis a
+    e'2 e,
+    fis1~
+    fis
+    e %145
+    R1*3
+    a1
+    h %150
+    a
+    cis2 dis
+    e h
+    h2. h4
+    h2 h4 cis %155
+    cis^\critnote cis h2
+    h1
+    r2 r4 e
+    d cis h a
+    gis fis e2 %160
+    a1
+    h
+    a2 h
+    cis2. dis4
+    e1 %165
+    r2 r4 e
+    d cis h a
+    gis fis e2
+    h'1
+    cis %170
+    h
+    e2. e4
+    cis2 h~
+    h a4 gis
+    a2 a' %175
+    h a
+    r e
+    e2. e4
+    e\breve*1/2\fermata \bar "|." %179 finis
+  }
+}
