@@ -198,3 +198,104 @@ QuoniamOboeII = {
     a\breve*1/2\fermata \bar "|." %179 finis
   }
 }
+
+CredoOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoCredo
+    R2.*28 %28
+    r4 cis'8\f dis eis cis
+    fis4 fis, fis'8 e %30
+    d!4 d d
+    cis4. cis8 cis4
+    e fis dis
+    e cis r
+    r h h %35
+    gis8 fis gis a h cis
+    dis2 dis4
+    e8 fis dis2
+    e4 r r
+    R2.*23 %62
+    \time 4/4  r4 \tempoEtIncarnatus cis2\fE cis8 cis \noBreak
+    cis2. cis4
+    ais2 h %65
+    a g4 h~
+    h8 h h h c4. c8
+    c2 r
+    R1
+    r2 r4 a~ %70
+    a gis! a2
+    gis!1 \bar "||" %72 finis
+  }
+}
+
+EtResurrexitOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #83
+    R2.
+    r8 gis''16\fE a h8 e, fis, dis'
+    e,16 gis a h cis8 a gis4 %85
+    a16 e fis gis a8 a4 gis8
+    a4 r r
+    R2.*6 %93
+    r4 r cis\fE
+    cis8. cis16 cis8 cis d cis %95
+    d cis h2
+    ais4 ais8 h cis ais
+    d4 cis r \noBreak
+    h ais r
+    \time 4/4 \tempoEtMortuos R1 %100
+    \time 3/4 r4 \tempoCuius h8\fE a gis h \noBreak
+    cis4 h h
+    cis h cis
+    r8 cis h2
+    a4 r r %105
+    R2.*24 %129
+    cis4\fE h a %130
+    e'2 e4
+    cis h a
+    e'2 e4
+    cis h a
+    e'2.~ %135
+    e2 e4~
+    e dis2
+    e h4
+    h4. h8 h4
+    h h h %140
+    cis2 cis4
+    R2.
+    gis4. a8 h gis
+    a4 fis4. e8
+    dis4^\critnote e gis %145
+    gis2.
+    gis4 cis h
+    cis r r
+    r h e
+    cis r r \noBreak %150
+    r e, gis
+    \time 4/4 \tempoMortuorum \newSpacingSection e r r2 \noBreak
+    R1*2
+    \tempoEtVitam r4 a\fE gis8. a16 h4~ \noBreak %155
+    h8 a cis4. h8 e4~
+    e8 fis16 e dis4 e2
+    r8 a,4 gis8 fis h4 a8
+    gis cis4 h16 a h2
+    a8 a16 h cis8 h16 a h8 gis fis4 %160
+    e8 a4 gis8 fis h4 a16 gis
+    a8 cis h a gis4 e
+    R1*2
+    r4 a gis8. a16 h4~ %165
+    h8 a cis4. h8 e4~
+    e8 fis16 e dis4 e h~
+    h8 a cis4. h16 cis d8 cis16 d
+    e2 fis4 e8 d
+    cis4 d e r8 \once \tieDashed a,~ %170
+    a gis fis h~ h a gis cis~
+    cis h a d~ d cis h e~
+    e d cis2 h8 a
+    gis4 a2 gis4
+    a1\fermata \bar "|." %175 finis
+  }
+}

@@ -211,3 +211,102 @@ QuoniamViola = {
     e\breve*1/2\fermata \bar "|." %179 finis
   }
 }
+
+CredoViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 3/4 \tempoCredo
+    R2.*26 %26
+    r4 cis8\fE dis eis cis
+    fis4 fis, cis'8 cis
+    cis2.~
+    cis %30
+    d!4. d8 d4
+    e4. e8 e4
+    R2.
+    h4 a h
+    gis4. fis8 fis4 %35
+    r r e'
+    fis8 gis fis e dis cis
+    h cis h2
+    h r4
+    R2.*23 %62
+    \time 4/4 r4 \tempoEtIncarnatus a'2\fE a4 \noBreak
+    g1
+    fis2 h, %65
+    c g4 gis~
+    gis8 gis gis4 a2~
+    a r
+    R1
+    r4 e' f2 %70
+    e a,
+    e'1\fermata \bar "||" %72 finis
+  }
+}
+
+EtResurrexitViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #83
+    r8 e\fE gis e h' h,
+    e e gis e h4
+    e8 e cis a e' e, %85
+    a4 r8 a e4
+    a r r
+    R2.*6 %93
+    r4 r cis'
+    ais2 h8 ais %95
+    h fis g2
+    fis4 fis8 gis ais fis
+    h4 ais r \noBreak
+    h fis r
+    \time 4/4 \tempoEtMortuos r4 h,\p fis2 %100
+    \time 3/4 h4 \tempoCuius e8 fis gis e \noBreak
+    a4 e gis
+    a e a,
+    r8 fis' d4 e
+    a, r r %105
+    R2.*25 %130
+    gis'4\fE fis e
+    a2 a4
+    gis fis e
+    a2.
+    gis4 fis e %135
+    a2 gis4
+    fis2.
+    e2 e4
+    dis2.
+    d %140
+    cis
+    fis
+    e4. fis8 gis e
+    fis2.
+    gis~ %145
+    gis
+    cis,2 e4
+    a, a' gis
+    a e r
+    r a gis \noBreak %150
+    a e e
+    \time 4/4 \tempoMortuorum \newSpacingSection a, r r2 \noBreak
+    R1*2
+    \tempoEtVitam R1*5 %159
+    r4 a\fE gis8. a16 h4~ %160
+    h8 a cis4. h8 e4~
+    e8 fis16 e dis4 e2
+    r8 a,4 gis8 fis h4 a8
+    gis cis4 h16 a h2
+    a8 a16 h cis8 h16 a h8 gis fis4 %165
+    e8 a4 gis8 fis h4 a16 gis
+    a8 cis h a gis4 e
+    r2 r8 h'4 a8
+    gis cis4 h8 a4 gis
+    a h2 cis4 %170
+    d8 h cis d e cis d e
+    fis d e fis h, cis d e
+    fis4 e2 d4~
+    d cis h2
+    cis1\fermata \bar "|." %175 finis
+  }
+}

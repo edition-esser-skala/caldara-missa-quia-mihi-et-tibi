@@ -350,3 +350,296 @@ QuoniamBassoLyrics = \lyricmode {
   a --
   men. %179 finis
 }
+
+CredoBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/4 \autoBeamOff \tempoCredo
+    R2.*6 %6
+    r4 \mvTr e\pE^\solo d!
+    cis4. d8 e4
+    fis4. fis8 fis4
+    d4. e8 fis d %10
+    h4. h8 h4
+    gis' e cis
+    a( e'4.) e8
+    a,2 r4
+    R2.*11 %25
+    r4 \mvTr fis'8\fE^\tutti gis a fis
+    cis'4 cis, cis'8 h
+    a4. gis8 fis4
+    eis4. dis8[ cis h]
+    a4. gis8 fis4 %30
+    h4. h8 h4
+    a4. a8 a4
+    R2.
+    e'4 fis dis
+    e4. e8 h4 %35
+    r r e
+    dis8[ e dis cis h a]
+    gis a h2
+    e r4
+    R2. %40
+    \mvTr e4.\pE^\solo fis8 gis4
+    dis cis2
+    h4 gis' fis
+    e dis2
+    cis8([ his cis dis)] e([ fis)] %45
+    gis2 gis,4
+    r gis' cis
+    a4 fis dis
+    his gis'8[ fis e dis]
+    e4. dis8 cis4 %50
+    gis2 gis4
+    cis2 r4
+    R2.*10 %62
+    \time 4/4 r4 \tempoEtIncarnatus \mvTr a'2\fE^\tuttiE a8 a\noBreak
+    g2. g4
+    fis4 fis h, h8 h %65
+    c2 g4 gis~
+    gis8 gis gis gis a4. a8
+    a2 r
+    R1
+    r4 e' f2 %70
+    e a,4. a8
+    e'1\fermata \bar "||" %72 finis
+  }
+}
+
+CredoBassoLyrics = \lyricmode {
+  Vi -- si -- %7
+  bi -- li -- um
+  o -- mni -- um
+  et in -- vi -- si -- %10
+  bi -- li -- um,
+  in -- vi -- si --
+  bi -- li --
+  um.
+
+  Et ex Pa -- tre %26
+  na -- tum an -- te
+  o -- mni -- a,
+  o -- _
+  _ mni -- a, %30
+  o -- mni -- a
+  sae -- cu -- la,
+
+  lu -- men de
+  lu -- mi -- ne, %35
+  de
+  De --
+  _ o ve --
+  ro.
+  %40
+  Ge -- ni -- tum
+  non fa --
+  ctum, con -- sub --
+  stan -- ti --
+  a -- lem %45
+  Pa -- tri,
+  per quem
+  o -- _ _
+  _ _
+  _ mni -- a %50
+  fa -- cta
+  sunt.
+
+  Et in -- car -- %63
+  na -- tus
+  est de Spi -- ri -- tu %65
+  San -- cto ex __
+  Ma -- ri -- a Vir -- gi --
+  ne,
+
+  et ho -- %70
+  mo fa -- ctus
+  est. %72 finis
+}
+
+CrucifixusBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \autoBeamOff \tempoCrucifixus
+      \set Score.currentBarNumber = #73
+    \mvTr h'2\pE^\solo ais
+    h4 h, a'8. a16 a8 a
+    g4.( a16[ h] eis,2) %75
+    fis4 r8 fis e8. e16 e8 e
+    d8.([ cis16)] h4 dis2
+    e d
+    c h4. h8
+    eis,2 fis4 fis %80
+    fis2. fis4
+    h1\fermata \bar "||" %82 finis
+  }
+}
+
+CrucifixusBassoLyrics = \lyricmode {
+  Cru -- ci -- %73
+  fi -- xus e -- ti -- am pro
+  no -- %75
+  bis sub Pon -- ti -- o Pi --
+  la -- to, pas --
+  sus, pas --
+  sus et se --
+  pul -- tus, se -- %80
+  pul -- tus
+  est. %82 finis
+}
+
+EtResurrexitBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/4 \autoBeamOff \tempoEtResurrexit
+      \set Score.currentBarNumber = #83
+    r8 \mvTr e\fE^\tutti gis e h'4
+    e,8 e gis e h4
+    e8 e cis h16 a e'4 %85
+    a,2 r4
+    R2.
+    r4 \mvTr e'8([\pE^\solo fis)] gis([ a)]
+    h4 h h
+    a8([ gis)] fis4 r %90
+    r fis h
+    gis8([ fis)] gis4 cis
+    a4. a8 h4
+    cis cis, \mvTr cis'\fE^\tutti
+    ais8. ais16 ais8 ais h ais %95
+    h fis g4. g8
+    fis4 fis8 gis ais fis
+    h4 ais r \noBreak
+    h fis r
+    \time 4/4 \tempoEtMortuos r h,\p fis4. fis8 %100
+    \time 3/4 h4 \tempoCuius e8([\fE fis)] gis([ e)] \noBreak
+    a4 e gis
+    a e a
+    r8 fis d d e4
+    a,2 r4 %105
+    R2.*15 %120
+    \mvTr fis'2\pE^\solo h4
+    gis e a~
+    a fis2
+    e4 e8([ fis)] gis([ a)]
+    h4 h,8([ cis d! e)] %125
+    fis4 fis a
+    e2 eis4
+    fis4. e8[ d cis]
+    h4 cis2
+    fis, r4 %130
+    \mvTr gis'\fE^\tutti fis e
+    a2 a4
+    gis fis e
+    a4. a8 a4
+    gis fis e %135
+    a4. a8 gis4
+    fis4. fis8 fis4
+    e2 e4
+    dis4. dis8 dis4
+    d d d %140
+    cis2 cis4
+    R2.
+    e4. fis8 gis e
+    fis4. fis8 fis fis
+    gis2.~ %145
+    gis
+    cis,2 r4
+    r a' gis
+    a e r
+    r a8 a gis gis \noBreak %150
+    a4 e r
+    \time 4/4 \tempoMortuorum \newSpacingSection r \mvTr a2\p^\solo eis4 \noBreak
+    fis( cis d2) \noBreak
+    cis1
+    \tempoEtVitam R1*7 %161
+    r2 r4 \mvTr e\fE^\tutti
+    cis8.([ d16)] e4. d8 fis4~
+    fis8 e a4. h16 a gis4
+    a2 r8 e4 d8 %165
+    cis fis4 e8 dis gis4 fis16[ e]
+    fis2 e
+    r4 a, gis8.([ a16)] h4~
+    h8 a cis4. h8 e4~
+    e8 fis16 e d2( cis4) %170
+    h8 e4 d8 cis fis4 e8
+    d g4 fis8 e a4 gis8
+    fis[ gis] a4 d,2
+    e1
+    a,\fermata \bar "|." %175 finis
+  }
+}
+
+EtResurrexitBassoLyrics = \lyricmode {
+  Et re -- sur -- re -- %83
+  xit ter -- ti -- a di --
+  e se -- cun -- dum Scri -- ptu -- %85
+  ras.
+
+  Et a --
+  scen -- dit in
+  coe -- lum, %90
+  se -- det,
+  se -- det ad
+  dex -- te -- ram
+  Pa -- tris. Et
+  i -- te -- rum ven -- tu -- rus %95
+  est cum glo -- ri --
+  a iu -- di -- ca -- re
+  vi -- vos,
+  vi -- vos
+  et mor -- tu -- %100
+  os, cu -- ius
+  re -- gni non
+  e -- rit, non,
+  non e -- rit fi --
+  nis. %105
+
+  Et con -- %121
+  glo -- ri -- fi --
+  ca --
+  tur: Qui lo --
+  cu -- tus __ %125
+  est per Pro --
+  phe -- _
+  _ _
+  _ _
+  tas. %130
+  Et u -- nam
+  san -- ctam,
+  san -- ctam ca --
+  tho -- li -- cam
+  et a -- po -- %135
+  sto -- li -- cam
+  Ec -- cle -- si --
+  am. Con --
+  fi -- te -- or
+  u -- num ba -- %140
+  ptis -- ma
+
+  in re -- mis -- si --
+  o -- nem pec -- ca --
+  to -- %145
+
+  rum.
+  Et ex --
+  pe -- cto
+  re -- sur -- re -- cti -- %150
+  o -- nem
+  mor -- tu --
+  o --
+  rum,
+
+  et %162
+  vi -- tam ven -- tu --
+  ri sae -- cu -- li, a --
+  men, a -- _ %165
+  _ _ _ _ _ _
+  _ men,
+  et vi -- tam __
+  ven -- tu -- ri sae --
+  cu -- li, a -- %170
+  men, a -- _ _ _ _
+  _ _ _ _ _ _
+  _ _ _
+  _
+  men. %175 finis
+}

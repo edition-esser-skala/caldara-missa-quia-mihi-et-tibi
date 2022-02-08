@@ -18,6 +18,15 @@ tempoQuiTollis = \tempoMarkup "Adagio"
 tempoQuoniam = \tempoMarkup "Allegro"
   tempoCumSancto = \tempoMarkup "Allabreve"
 
+tempoCredo = \tempoMarkup "Andante"
+  tempoEtIncarnatus = \tempoMarkup "Adagio"
+tempoCrucifixus = \tempoMarkup "Adagio"
+tempoEtResurrexit = \tempoMarkup "Allegro"
+  tempoEtMortuos = \tempoMarkup "Adagio"
+  tempoCuius = \tempoMarkup "Allegro"
+  tempoMortuorum = \tempoMarkup "Adagio"
+  tempoEtVitam = \tempoMarkup "Allegro"
+
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"

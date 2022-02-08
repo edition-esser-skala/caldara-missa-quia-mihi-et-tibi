@@ -233,3 +233,161 @@ QuoniamViolinoII = {
     cis\breve*1/2\fermata \bar "|." %179 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoCredo
+    \mvDl <a'' cis, e, a,>2\fE r4
+    R2.
+    q2 r4
+    r r h,\p
+    cis8 e h4 h %5
+    cis h h
+    <e h e,>\f r r
+    <e cis e, a,> r r
+    a,\p a ais
+    h r r %10
+    r h8 cis d4~
+    d cis8 h cis d
+    e4 h e
+    <e cis e, a,> r r
+    r e,\ppE gis %15
+    fis h2~
+    h4 a a
+    a4. gis8 gis4
+    fis h8 a gis fis
+    e4 a r %20
+    a4. gis8 a4
+    h8 a h cis h a
+    gis fis gis a gis fis
+    eis4. gis8 fis eis
+    fis4 eis4.\trill fis8 %25
+    fis2 r4
+    R2.*2
+    r4 cis'8\f dis eis cis
+    fis4 fis, fis'8 e %30
+    d!4 d d
+    cis4. cis8 cis4
+    e fis dis
+    e cis r
+    r h h %35
+    gis8 fis gis a h cis
+    dis2 dis4
+    e8 fis dis2
+    e4 e, e~
+    e dis2 %40
+    e4 r e\p
+    fis e2
+    dis4 r gis~
+    gis fis2
+    e4 e e %45
+    e dis his'
+    cis r r
+    r r a~
+    a dis, gis~-\critnote
+    gis cis e, %50
+    dis dis2
+    cis r4
+    R2.*10 %62
+    \time 4/4  r4 \tempoEtIncarnatus cis'2\fE cis8 cis \noBreak
+    cis2. cis4
+    ais2 h %65
+    a g4 h~
+    h8 h h h c4. c8
+    c2 r
+    R1
+    r2 r4 a~ %70
+    a gis! a2
+    gis!1 \bar "||" %72 finis
+  }
+}
+
+CrucifixusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoCrucifixus
+      \set Score.currentBarNumber = #73
+    d8\p d d d e e e e
+    d d d d dis dis dis dis
+    e e e e d d d d %75
+    cis cis cis cis cis cis cis cis
+    fis fis fis fis a a a a
+    a a g g gis gis gis gis
+    ais ais ais ais h fis h, h
+    h h h h ais ais h h %80
+    h h h h ais ais ais ais
+    h1\fermata \bar "||" %82 finis
+  }
+}
+
+EtResurrexitViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #83
+    R2.
+    r8 gis''16\fE a h8 e, fis, dis'
+    e,16 gis a h cis8 a gis4 %85
+    a16 e fis gis a8 cis, h e
+    a,4 r r
+    R2.*6 %93
+    r4 r cis'\fE
+    cis8. cis16 cis8 cis d cis %95
+    d cis h2
+    ais4 ais8 h cis ais
+    d4 cis r \noBreak
+    h ais r
+    \time 4/4 \tempoEtMortuos r h,2\p ais4 %100
+    \time 3/4 h \tempoCuius h'8\f a gis h \noBreak
+    cis4 h h
+    cis h cis
+    r8 cis h2
+    a4 r r %105
+    R2.*24 %129
+    cis4\fE h a %130
+    e'2 e4
+    cis h a
+    e'2 e4
+    cis h a
+    e'2.~ %135
+    e2 e4~
+    e dis2
+    e h4
+    h4. h8 h4
+    h h h %140
+    cis2 cis4
+    R2.
+    gis4. a8 h gis
+    a4 fis4. e8
+    dis4 e cis %145
+    dis dis2
+    cis4 cis' h
+    cis r r
+    r h e
+    cis r r \noBreak %150
+    r e, gis
+    \time 4/4 \tempoMortuorum \newSpacingSection e r r2 \noBreak
+    R1*2
+    \tempoEtVitam R1*2 %156
+    r2 r4 e\fE
+    cis8. d16 e4. d8 fis4~
+    fis8 e a4. h16 a gis4
+    a2 r8 e4 d8 %160
+    cis fis4 e8 dis gis4 fis16 e
+    fis2 e8 e16 fis gis8 fis16 e
+    a8 cis, h4 a8 d4 cis8
+    h e4 d16 cis d8 fis e d
+    cis4 a r2 %165
+    R1
+    r2 r4 e'
+    cis8. d16 e4. e8 d4
+    cis e8. e16 d4 e
+    fis h8 a gis4 e %170
+    fis8 gis a fis gis a h gis
+    a h cis a gis! e fis gis
+    a4. gis8 fis2
+    e1
+    e\fermata \bar "|." %175 finis
+  }
+}
