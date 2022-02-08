@@ -894,3 +894,145 @@ EtResurrexitBassFigures = \figuremode {
   <7 5> <6 4> <5 \t> <\t 3>
   r1 %175 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoSanctus
+    \mvTr a'4\pE-\solo gis8 e' fis,4 cis8 a'
+    d, cis h4 a a'
+    gis8 fis gis e a4 ais
+    h8 h, d h e4 fis
+    h, g' e fis %5
+    h, \mvTr h2\fE-\tutti h4
+    gis!2 a
+    h1
+    e\fermata \bar "||" %9 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r4 \bo <[6]>2 <6>4
+  r8 \bc <[6]> <6>2.
+  \bo <[6]>2. \bc q4
+  <9> <[6]> <6 5 [_!]> <_+>
+  r2 <[6 5 _!]>4 <_+> %5
+  r1
+  <6 5>2 <9 4>4 <8 3>
+  <7 _+> <6 4> <5 \t> <\t _+>
+  r1 %9 finis
+}
+
+OsannaOrgano = {
+  \relative c {
+    \clef treble
+    \key a \major \time 2/1 \tempoOsanna
+      \set Score.currentBarNumber = #10
+      \set Staff.timeSignatureFraction = 2/2
+    << {
+      \mvTr a''1\fE_\tuttiE cis2. d4
+      e d cis h a2 fis'
+    } \\ {
+      R\breve
+      e,1 fis2. gis4
+    } >>
+    \clef "treble_8" a,1 cis2. d4
+    \clef bass e,1 fis2. gis4
+    a2 gis4 fis e2 cis'~
+    cis h2. a4 gis2 %15
+    fis1 e
+    e2. cis4 fis2 d
+    e a2. fis4 h a
+    gis2 a gis1~
+    gis cis, %20
+    cis2. a4 d!2. h4
+    e1 \clef treble fis'2. gis4
+    << { a2 gis4 fis e2 a } \\ { a,1 cis2. d4 } >>
+    \clef "treble_8" e,1 fis2. gis4
+    \clef bass a,1 cis2. d4 %25
+    e2 e, a d~
+    d4 h e2. cis4 fis2~
+    fis4 d h d e1~
+    e\breve
+    a,\fermata \bar "||" %30 finis
+  }
+}
+
+OsannaBassFigures = \figuremode {
+  r\breve %10
+  r
+  <6 4>2 <5 3> <[6]>1
+  <4>2 <3> <7> <6>4 <\t>
+  r2. <6\\> <6>2
+  <6 4 2+> <\t \t \t>2. <4+ 2>4 <6>2 %15
+  <7> <6\\>1.
+  <5>2 <6> <[5]> <6>
+  <[7]> <5> <6>1
+  <6 5>2 <5>4 <6> <5+ _+>2 <6 4>
+  <5+ \t> <\t _+>1. %20
+  <5>2 <6> <5> <6>
+  r\breve
+  r
+  <4>2 <3> <7> <6>
+  <6 4> <5 3> <[6]>1 %25
+  <4>2 <3>1 <5>2
+  <6> <5> <6> <5>
+  <6>1 <7 3>2 <6 4>
+  <5 [3]> <6 4> <5 \t> <\t 3>
+  r\breve %30 finis
+}
+
+BenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key fis \minor \time 3/4 \tempoBenedictus
+      \set Score.currentBarNumber = #31
+    \mvTr fis2.\pE-\solo
+    h,4 cis2
+    fis2.
+    h,
+    fis' %35
+    cis
+    a
+    gis2 e'4
+    fis gis gis,
+    cis2. %40
+    fis
+    h,
+    e
+    a,
+    h %45
+    cis
+    fis,~
+    fis
+    h
+    cis %50
+    fis4 cis2
+    fis,2.\fermata \markOsannaUtSupra \bar "||" %52 finis
+  }
+}
+
+BenedictusBassFigures = \figuremode {
+  r2. %31
+  r4 <8 _+> <7 \t>
+  r2.
+  r
+  r %35
+  <_+>
+  <[6]>
+  <[5+] _+>2 <6>4
+  r <[5+] _+>2
+  r2. %40
+  <_+>
+  q
+  r
+  r
+  <7>4 <6> <5> %45
+  <7 _+> <9 4> <7 5>
+  <9 3> <8 4> <7+ 5>
+  <5> <4> <3>
+  <6>2.
+  <7 _+> %50
+  r4 <_+>2
+  r2. %52 finis
+}

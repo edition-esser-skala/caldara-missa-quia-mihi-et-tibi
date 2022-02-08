@@ -310,3 +310,44 @@ EtResurrexitViola = {
     cis1\fermata \bar "|." %175 finis
   }
 }
+
+SanctusViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 4/4 \tempoSanctus
+    R1*5 %5
+    r2 h'8\fE fis h, h'
+    gis! d h gis' a e a, a'
+    h fis h,^\critnote h' h,4 fis'8. fis16
+    e1\fermata \bar "||" %9 finis
+  }
+}
+
+OsannaViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 2/2 \tempoOsanna
+      \set Score.currentBarNumber = #10
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve*2 %11
+    a1\fE cis2. d4
+    e d cis h a2. h4
+    cis2 h4 a h2 e
+    dis4 e fis2 e4 fis h,2 %15
+    cis h4 a h2 h~
+    h4 gis cis2. a4 d2~
+    d cis1 h2~
+    h cis dis e
+    dis1 cis %20
+    e2. cis4 fis2. d4
+    h2 h r1
+    R\breve
+    e,1 fis2. gis4
+    a2 gis4 fis e2 a~ %25
+    a4 gis8 fis gis2 a1
+    r2 gis2. e4 a2~
+    a4 fis h1 a2
+    gis a h1
+    cis\breve\fermata \bar "||" %30 finis
+  }
+}

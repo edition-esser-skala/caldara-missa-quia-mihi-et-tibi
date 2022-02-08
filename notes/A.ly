@@ -657,3 +657,75 @@ EtResurrexitAltoLyrics = \lyricmode {
   _
   men. %175 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoSanctus
+    R1*5 %5
+    r4 \mvTr h'2\fE^\tuttiE h8 h
+    h4 h8 h h h a4~
+    a gis8 gis fis2
+    gis1\fermata \bar "||" %9 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  Ple -- ni sunt %6
+  coe -- li et ter -- ra glo --
+  ri -- a tu --
+  a. %9 finis
+}
+
+OsannaAlto = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 2/2 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #10
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve %10
+    \mvTr e1\fE^\tuttiE fis2. gis4
+    a2 gis4( fis) e2 a~
+    a4 gis8[ fis] gis2 a1
+    e2. fis4 gis2 \once \tieDashed a~
+    a h4 a gis a h2 %15
+    a1 gis
+    R\breve
+    e2. cis4 fis2 e4 d
+    e2. fis4 gis1~
+    gis gis2 gis~ %20
+    gis4 e a2. fis4 h a
+    gis2 gis r1
+    a,1 cis2. d4
+    e( d) cis( h) a2 fis'~
+    fis e2. d4 cis2 %25
+    h1 cis2 fis~
+    fis4 d e1 fis2~
+    fis4 d fis h gis2 \once \tieDashed e~
+    e cis4 d e1
+    e\breve\fermata \bar "||" %30 finis
+  }
+}
+
+OsannaAltoLyrics = \lyricmode {
+  O -- san -- na %11
+  in ex -- cel -- _
+  _ _ sis,
+  in ex -- cel -- _
+  _ _ _ _ _ %15
+  _ sis,
+
+  in ex -- cel -- _ _
+  _ _ _
+  \xE sis, in __ %20
+  ex -- cel -- _ _ _
+  _ \x sis,
+  o -- san -- na
+  in __ ex -- cel -- _
+  _ _ _ %25
+  _ sis, in __
+  ex -- cel -- _
+  _ _ _ _ _
+  _ _ _
+  sis. %30 finis
+}

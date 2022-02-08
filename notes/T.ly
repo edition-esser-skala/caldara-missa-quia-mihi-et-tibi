@@ -611,3 +611,128 @@ EtResurrexitTenoreLyrics = \lyricmode {
   _ _
   men. %175 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \major \time 4/4 \autoBeamOff \tempoSanctus
+    R1*5 %5
+    r4 \mvTr fis2\fE^\tuttiE fis8 fis
+    e4 e8 e e4 e
+    dis8. dis16 e2 dis4
+    e1\fermata \bar "||" %9 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  Ple -- ni sunt %6
+  coe -- li et ter -- ra
+  glo -- ri -- a tu --
+  a. %9 finis
+}
+
+OsannaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \major \time 2/2 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #10
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve*2 %11
+    \mvTr a1\fE^\tuttiE cis2. d4
+    e( d) cis( h) a2. h4
+    cis2 h4 a h2 e
+    dis4 e fis2 e4 fis h,2 %15
+    cis h4 a h2 h~
+    h4 gis cis2. a4 d2~
+    d cis1 h2~
+    h cis dis e
+    dis1 cis %20
+    e2. cis4 fis2. d4
+    h2 h r1
+    R\breve
+    e,1 fis2. gis4
+    a2 gis4( fis) e2 a~ %25
+    a4 gis8[ fis] gis2 a1
+    r2 gis2. e4 a2~
+    a4 fis h1 a2
+    gis a h1
+    cis\breve\fermata \bar "||" %30 finis
+  }
+}
+
+OsannaTenoreLyrics = \lyricmode {
+  O -- san -- na %12
+  in __ ex -- cel -- _
+  _ _ _ _ _
+  _ _ _ _ _ _ %15
+  _ _ _ sis, in __
+  ex -- cel -- _ _
+  _ _
+  _ _ _
+  _ sis, %20
+  in ex -- cel -- _
+  _ sis,
+
+  o -- san -- na
+  in ex -- cel -- _ %25
+  _ _ sis,
+  in ex -- cel --
+  _ _ _
+  _ _ _
+  sis. %30 finis
+}
+
+BenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key fis \minor \time 3/4 \autoBeamOff \tempoBenedictus
+      \set Score.currentBarNumber = #31
+    r4 \mvTr cis\pE^\solo fis,
+    d' cis h
+    a8([ gis)] fis4 fis'
+    d4. e8 d4
+    cis2.~ %35
+    cis4. h8[ a gis]
+    fis2.
+    his2 cis4~
+    cis his4. cis8
+    cis2 r4 %40
+    r r fis
+    dis4. e8 dis4
+    e8[ h gis e e' d]
+    cis4. cis8 cis4
+    r r d~ %45
+    d cis h
+    a h cis~
+    cis h( a)
+    h2 h4~
+    h cis8([ h)] a gis %50
+    a4( gis4.) fis8
+    fis2.\fermata \markOsannaUtSupra \bar "||" %52 finis
+  }
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+  Be -- ne -- %31
+  di -- ctus, qui
+  ve -- nit in
+  no -- mi -- ne
+  Do -- %35
+  _
+  _
+  _ _
+  _ mi --
+  ni, %40
+  in
+  no -- mi -- ne
+  Do --
+  _ mi -- ni,
+  be -- %45
+  _ ne --
+  di -- ctus, qui __
+  ve --
+  nit in __
+  no -- mi -- ne %50
+  Do -- mi --
+  ni. %52 finis
+}

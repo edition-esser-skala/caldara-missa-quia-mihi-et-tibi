@@ -299,3 +299,45 @@ EtResurrexitOboeII = {
     a1\fermata \bar "|." %175 finis
   }
 }
+
+SanctusOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoSanctus
+    R1*5 %5
+    r4  h'2\fE h8 h
+    h4 h8 h h4 a~
+    a gis fis2
+    gis1\fermata \bar "||" %9 finis
+  }
+}
+
+OsannaOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 2/2 \tempoOsanna
+      \set Score.currentBarNumber = #10
+      \set Staff.timeSignatureFraction = 2/2
+    a'1\fE cis2. d4
+    e d cis h a2 fis'~
+    fis e2. d4 cis2
+    h e1 d2
+    cis2. dis4 e1
+    fis4 e dis2. cis8 dis e2~ %15
+    e dis e1
+    r1 r2 h~
+    h4 e, cis'2. a4 d2~
+    d cis his cis~
+    cis his cis1 %20
+    R\breve
+    e,1 fis2. gis4
+    a2 gis4 fis e2 a~
+    a4 gis8 fis gis2 a d~
+    d cis4 d e2 e, %25
+    r1 a2. d,4
+    h'2. gis4 cis2. a4
+    d1. cis2
+    h a1 gis2
+    a\breve\fermata \bar "||" %30 finis
+  }
+}

@@ -643,3 +643,119 @@ EtResurrexitBassoLyrics = \lyricmode {
   _
   men. %175 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \autoBeamOff \tempoSanctus
+    R1*5 %5
+    r4 \mvTr h'2\fE^\tuttiE h8 h
+    gis!4 gis8 gis a4 a,
+    h h8 h h2
+    e1\fermata \bar "||" %9 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  Ple -- ni sunt %6
+  coe -- li et ter -- ra
+  glo -- ri -- a tu --
+  a. %9 finis
+}
+
+OsannaBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 2/2 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #10
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve*3 %12
+    \mvTr e1\fE^\tuttiE fis2. gis4
+    a2 gis4( fis) e2 cis'~
+    cis h2. a4 gis2 %15
+    fis1 e
+    e2. cis4 fis2 e4 d
+    e2 a2. fis4 h a
+    gis2 a gis1~
+    gis cis, %20
+    cis2. a4 d!2. h4
+    e2 e r1
+    R\breve*2
+    a,1 cis2. d4 %25
+    e( d) cis( h) a2 d~
+    d4 h e2. cis4 fis2~
+    fis4 d h d e1~
+    e\breve
+    a,\fermata \bar "||" %30 finis
+  }
+}
+
+OsannaBassoLyrics = \lyricmode {
+  O -- san -- na %13
+  in ex -- cel -- _
+  _ _ _ %15
+  _ sis,
+  in ex -- cel -- _ _
+  _ _ _ _ _
+  _ _ _
+  sis, %20
+  in ex -- cel -- _
+  _ sis,
+
+  o -- san -- na %25
+  in __ ex -- cel -- _
+  _ _ _ _
+  _ _ _ _
+
+  sis. %30
+}
+
+BenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key fis \minor \time 3/4 \autoBeamOff \tempoBenedictus
+      \set Score.currentBarNumber = #31
+    R2.*3 %33
+    r4 \mvTr fis\pE^\solo h,
+    a' gis fis %35
+    eis8([ dis)] cis4 cis'
+    a4. h8 a4
+    gis4. fis8 e4
+    fis gis4. gis8
+    cis,2 cis'4 %40
+    ais4. h8 ais4
+    h8[ fis dis h h' a]
+    gis4. gis8 gis4
+    r r a~
+    a gis fis %45
+    eis fis gis~
+    gis fis( eis)
+    fis2 fis4
+    gis h gis
+    eis4. fis8 gis4 %50
+    fis cis4. cis8
+    fis,2.\fermata \markOsannaUtSupra \bar "||" %52 finis
+  }
+}
+
+BenedictusBassoLyrics = \lyricmode {
+  Be -- ne -- %34
+  di -- ctus, qui %35
+  ve -- nit in
+  no -- mi -- ne
+  Do -- _ _
+  _ _ mi --
+  ni, in %40
+  no -- mi -- ne
+  Do --
+  _ mi -- ni,
+  be --
+  _ ne -- %45
+  di -- ctus, qui __
+  ve --
+  nit in
+  no -- mi -- ne
+  Do -- _ _ %50
+  _ _ mi --
+  ni. %52 finis
+}

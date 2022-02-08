@@ -676,3 +676,92 @@ EtResurrexitSopranoLyrics = \lyricmode {
   _ _ _
   men. %175 finis
 }
+
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr cis'4\pE^\solo e a, a
+    fis'8 e d4 cis2
+    h4 e8 d cis4 fis
+    d4. d8 cis4. cis8
+    h2 r %5
+    r4 \mvTr d2\fE^\tutti d8 d
+    d4 d8 d d4 cis
+    h h8 h h2
+    h1\fermata \bar "||" %9 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus, san -- ctus,
+  san -- ctus, san -- ctus
+  Do -- mi -- nus De -- us,
+  De -- us Sa -- ba --
+  oth. %5
+  Ple -- ni sunt
+  coe -- li et ter -- ra
+  glo -- ri -- a tu --
+  a. %9 finis
+}
+
+OsannaSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 2/2 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #10
+      \set Staff.timeSignatureFraction = 2/2
+    \mvTr a'1\fE^\tuttiE cis2. d4
+    e( d) cis( h) a2 fis'~
+    fis e2. d4 cis2
+    h e1 d2
+    cis2. dis4 e1
+    fis4 e dis2.^\critnote cis8[ dis] e2~ %15
+    e dis e1
+    r1 r2 h~
+    h4 e, cis'2. a4 d2~
+    d cis his cis~
+    cis his cis1 %20
+    R\breve
+    e,1 fis2. gis4
+    a2 gis4( fis) e2 a~
+    a4 gis8[ fis] gis2 a d~
+    d cis4( d) e2 e, %25
+    r1 a2. d,4
+    h'2. gis4 cis2. a4
+    d1. cis2
+    h a1 gis2
+    a\breve\fermata \bar "||" %30 finis
+  }
+}
+
+OsannaSopranoLyrics = \lyricmode {
+  O -- san -- na %10
+  in __ ex -- cel -- _
+  _ _ _
+  sis, in ex --
+  cel -- _ _
+  _ _ _ _ _ %15
+  _ sis,
+  in __
+  ex -- cel -- _ _
+  _ _ _
+  _ sis, %20
+
+  o -- san -- na
+  in ex -- cel -- _
+  _ _ sis, in __
+  ex -- cel -- sis, %25
+  in ex --
+  cel -- _ _ _
+  _ _
+  _ _ _
+  sis. %30
+}
+
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Do -- na no -- bis pa -- cem.
