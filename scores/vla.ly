@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Viola  "
+          \KyrieViola
         }
       >>
     }
@@ -21,9 +21,10 @@
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \GloriaOrgano }
+        \new Staff { \GloriaViola }
       >>
     }
   }
@@ -32,7 +33,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuiTollisOrgano }
+        \new Staff { \QuiTollisViola }
       >>
     }
   }
@@ -41,26 +42,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamOrgano }
+        \new Staff { \QuoniamViola }
       >>
     }
   }
   \bookpart {
     \section "3" "Credo"
     \addTocEntry
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \CredoOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Crucifixus"
-    \addTocEntry
-    \paper { systems-per-page = #2 }
-    \score {
-      <<
-        \new Staff { \CrucifixusOrgano }
+        \new Staff { \CredoViola }
       >>
     }
   }
@@ -69,17 +61,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \EtResurrexitOrgano }
+        \new Staff { \EtResurrexitViola }
       >>
     }
   }
   \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
-    \paper { systems-per-page = #2 }
+    \paper { systems-per-page = #1 ragged-last = ##f }
     \score {
       <<
-        \new Staff { \SanctusOrgano }
+        \new Staff { \SanctusViola }
       >>
     }
   }
@@ -89,17 +81,7 @@
     \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \OsannaOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Benedictus"
-    \addTocEntry
-    \paper { systems-per-page = #3 }
-    \score {
-      <<
-        \new Staff { \BenedictusOrgano }
+        \new Staff { \OsannaViola }
       >>
     }
   }
@@ -108,7 +90,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusViola }
       >>
     }
   }

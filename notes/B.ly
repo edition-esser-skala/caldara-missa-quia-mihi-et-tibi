@@ -503,7 +503,7 @@ EtResurrexitBasso = {
     r fis h
     gis8([ fis)] gis4 cis
     a4. a8 h4
-    cis cis, \mvTr cis'\fE^\tutti
+    cis cis, \mvDl cis'\fE^\tutti
     ais8. ais16 ais8 ais h ais %95
     h fis g4. g8
     fis4 fis8 gis ais fis
