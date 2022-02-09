@@ -351,3 +351,52 @@ OsannaViola = {
     cis\breve\fermata \bar "||" %30 finis
   }
 }
+
+AgnusViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 4/4 \tempoAgnus
+    r4 a'2\fE a4^\critnote
+    a1
+    gis2 r4 gis
+    g g8 g g4 g
+    fis d a fis' %5
+    e2 r4 e8 e
+    e2. e4
+    fis8 e d4 cis4.\trill cis8
+    h2 r4 fis'8 fis
+    h4 h8 h h4. h8 %10
+    a fis fis fis fis fis fis fis
+    gis2 r
+    R1*2
+    r2 r4 e8\fE e %15
+    e4 e8 e e4 e
+    fis fis8 fis h,4 h \noBreak
+    h1\fermata \bar "||"
+    \tempoDona R1*3 %21
+    a'4 a a a
+    a8 fis e4 r8 fis e4
+    r8 fis e d e4 a,
+    gis'8 fis e fis gis fis e fis %25
+    gis a gis4 r8 a gis h~
+    h e, a2 gis4
+    e8 d cis d e d cis d
+    e r r gis a4 r8 gis
+    a4. h8 gis4 fis8 e %30
+    dis4 e2 dis4
+    e2 r
+    e4 e e e
+    e8 d cis d e d cis d
+    e4 r8 h' a4 r8 h %35
+    a2 a4 r8 a
+    h4 r8 e, a4 r8 h
+    gis4 r8 a fis4 e
+    e8 d cis d e d cis d
+    e1~ %40
+    e2 e4 r8 fis
+    e4 r8 fis e2
+    fis e~
+    \tempoDonaB e1
+    e\fermata \bar "|." %45 FINIS
+  }
+}

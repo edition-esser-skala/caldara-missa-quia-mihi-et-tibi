@@ -729,3 +729,99 @@ OsannaAltoLyrics = \lyricmode {
   _ _ _
   sis. %30 finis
 }
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr e2\fE^\tuttiE e4
+    fis1
+    e2 r4 e
+    e e8 e e4 e
+    d1 %5
+    cis2 r4 cis8 cis
+    cis2. cis4
+    cis( d cis2)
+    h r4 fis'8 fis
+    gis2 gis4. gis8 %10
+    a a16 a a8 a fis2
+    eis \mvTr gis8([\pE^\solo eis)] cis([ h')]
+    a4 ais h8([ fis)] h,([ a')]
+    gis4 h2 a4~
+    a gis a \mvTr e8\fE^\tutti e %15
+    e4 e8 e e e16 e e8 e
+    fis4 fis8 fis fis4 fis \noBreak
+    e2 e\fermata \bar "||"
+    \tempoDona R1*3 %21
+    a4 a a a
+    a8[ fis] e4 r8 fis e4
+    r8 fis[ e d] e4 a,
+    gis'8[ fis e fis] gis[ fis e fis] %25
+    gis[ a] gis4 r8 a[ gis h]~
+    h[ e,] a2 gis4
+    e8[ d cis d] e[ d cis d]
+    e r r gis a4 r8 gis
+    a4. h8 gis4 fis8[ e] %30
+    dis4 e2 dis4
+    e2 r
+    e4 e e e
+    e8[ d cis d] e[ d cis d]
+    e4 r8 h' a4 r8 h %35
+    a2 a4 r8 a
+    h4 r8 e, a4 r8 h
+    gis4 r8 a fis4 e
+    e8[ d cis d] e[ d cis d]
+    e1~ %40
+    e2 e4 r8 fis
+    e4 r8 fis e2
+    fis e~
+    \tempoDonaB e1
+    e\fermata \bar "|." %45 FINIS
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus
+  De --
+  i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- %5
+  di: Mi -- se --
+  re -- re
+  no --
+  bis. A -- gnus
+  De -- i, qui %10
+  tol -- lis pec -- ca -- ta mun --
+  di: Mi -- se --
+  re -- re, mi -- se --
+  re -- re no --
+  _ bis. A -- gnus %15
+  De -- i, qui tol -- lis pec -- ca -- ta
+  mun -- di, pec -- ca -- ta
+  mun -- di:
+
+  Do -- na no -- bis %22
+  pa -- _ _ _
+  _ _ cem,
+  pa -- _ %25
+  _ cem, pa --
+  _ _
+  _ _
+  cem, pa -- _ _
+  _ _ _ _ %30
+  _ _ _
+  cem,
+  do -- na no -- bis
+  pa -- _
+  _ _ _ _ %35
+  _ cem, pa --
+  _ _ _ _
+  _ _ _ cem,
+  pa -- _
+  _ %40
+  cem, da
+  pa -- _ _
+  _ _
+
+  cem. %45 FINIS
+}

@@ -343,3 +343,53 @@ OsannaOboeI = {
     a\breve\fermata \bar "||" %30 finis
   }
 }
+
+AgnusOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoAgnus
+    r4 e'2\fE e4
+    fis1
+    e2 r4 e
+    e e8 e e4 e
+    fis1 %5
+    a2 r4 a
+    a2. a4
+    ais fis2 fis4
+    d2 r4 h'8 h
+    gis2 gis4. gis8 %10
+    a a a a fis2
+    eis r
+    R1*2
+    r2 r4 cis8\fE cis
+    cis4 cis8 cis cis cis16 cis cis8 cis
+    d4 d8 d fis4 fis \noBreak
+    e2 e\fermata \bar "||"
+    \tempoDona e4 e e e \noBreak
+    e8 cis h4 r8 cis h4 %20
+    r8 cis h a h4 e,
+    cis'8 h a h cis h a h
+    cis d cis4 r8 d cis \once \tieDashed e~
+    e a, d4. cis16 h cis8 h16 a
+    h8 a gis a h a gis a %25
+    h e, r d' cis4 r8 d
+    cis e d cis h2
+    a r
+    R1*2 %30
+    h4 h h h
+    h8 a gis a h a gis a
+    h4 r8 cis h4 r8 d
+    cis h a4 r2
+    e'4 e e e %35
+    e8 d cis d e4 fis
+    e2 d
+    cis h
+    a4 r8 fis' e4 r8 fis
+    e d cis d e d cis d %40
+    e4 d8 cis h4 r8 a
+    gis4 r8 a gis4 a~
+    a gis8 fis gis4 a~
+    \tempoDonaB a gis8 fis gis2
+    a1\fermata \bar "|." %45 FINIS
+  }
+}

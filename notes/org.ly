@@ -1036,3 +1036,107 @@ BenedictusBassFigures = \figuremode {
   r4 <_+>2
   r2. %52 finis
 }
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoAgnus
+    r4 \mvTr a'2\fE-\tutti a4
+    dis,1
+    e2 r4 e
+    cis1
+    d %5
+    a2 r4 a'
+    g1
+    fis
+    h,2 r4 h'
+    eis,1 %10
+    fis2 d
+    cis r
+    R1*2
+    r2 r4 \mvTr a'\fE-\tuttiE %15
+    g2. fis8 e
+    d2 dis \noBreak
+    e1\fermata \bar "||"
+    \clef treble \tempoDona e''4-! e-! e-! e-! \noBreak
+    e8-! cis-! h4-! r8 cis-! h4-! %20
+    r8 cis-! h-! a-! h4-! e,-!
+    << {
+      cis'8 h a h cis h a h
+      cis d cis4 r8 d cis e~
+      e a, d4. cis16 h cis8 h16 a
+    } \\ {
+      a4 a a a
+      a8 fis e4 r8 fis e4
+      r8 fis e d e4 a,
+    } >>
+    \clef "treble_8" e' e e e %25
+    e8 cis h4 r8 cis h4
+    r8 cis h a h4 e,
+    \clef bass a a a a
+    a8 fis e4 r8 fis e4
+    r8 fis e d e4 a,8 a'~ %30
+    a gis16 fis gis8 fis16 e h2
+    e4 e e e
+    e8 d cis d e d cis h
+    a4 r8 d cis4 r8 d
+    cis4 r8 gis' a4 r8 gis %35
+    a h cis h a gis fis4
+    gis a fis gis
+    e fis8 cis d4 e
+    a,1~-\tasto
+    a~ %40
+    a2 e'8 d cis d
+    e d cis d e4 a
+    dis,2 e~
+    \tempoDonaB e1
+    a,\fermata \bar "|." %45 FINIS
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r1
+  <6 5>
+  r
+  <6 5!>
+  r %5
+  r
+  <6 4 2>
+  <7 _+>4 <6 4> <5 \t> <\t _+>
+  r1
+  <[6]> %10
+  r2 <7>4 <6>
+  <_+>1
+  r1*2
+  r1 %15
+  <6 4 2+>2. <[7] _+>4
+  <6>2 <6 5!>
+  <4> <3>
+  r1
+  r %20
+  r
+  r
+  r
+  r
+  <5 3>4 <\t \t> q q %25
+  r8 <6> q4. q8 <[6]>4
+  r8 q4. <7>2
+  <5 3>1
+  r8 <6\\>2 q4.
+  r8 <7> <7 4> <\t \t> <\t 3>4 <6>8 <5> %30
+  <4+ 2>4 <[6]> <5 4> <\t _+>
+  <5 3> <\t \t> q q
+  r <6>2.
+  r2 <6>
+  <[6]>4. <6>2 \bc <[6]>8 %35
+  r2. <6>4
+  <6 5>2 q
+  q4. <[6]>8 <6 5>2
+  r1
+  r %40
+  <5 3>2. <[6]>4
+  r <6>2.
+  <6 5>2 <5 [3]>4 <6 4>
+  <5 \t>2 <\t 3>
+  r1 %45 FINIS
+}

@@ -437,3 +437,50 @@ OsannaViolinoII = {
     e\breve\fermata \bar "||" %30 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoAgnus
+    r4 cis'2\fE cis4
+    h1
+    h2 r4 h
+    cis cis8 cis cis4 cis
+    a1 %5
+    cis2 r4 cis
+    cis2. cis4
+    cis h2 ais4
+    h2 r4 d8 d
+    cis2 cis4. cis8 %10
+    cis cis cis cis cis4( h)
+    cis2 eis,8\p eis eis eis
+    fis fis fis fis h, h h h
+    e e gis, gis a a a a
+    d d e e a,4 a'8\f a %15
+    ais4 ais8 ais ais ais16 ais ais8 ais
+    h4 h8 h a4 a \noBreak
+    a gis8 fis gis2\fermata \bar "||"
+    \tempoDona R1*6 %24
+    e'4 e e e %25
+    e8 cis h4 r8 cis h4
+    r8 cis h a h4 e,
+    cis'8 h a h cis h a h
+    cis dis e4 r8 dis e4~
+    e8 a, d4. cis16 h cis8 h16 a %30
+    h4. a16 gis fis2
+    e r
+    R1
+    a4 a a a
+    a8 cis h4 r8 cis h4 %35
+    cis8 h a h cis4 d~
+    d cis2 h4~
+    h a2 gis4
+    a2 cis8 h a h
+    cis h a h cis h a h %40
+    cis4 h8 a gis h cis4
+    r8 h cis4 r8 h cis h16 a
+    h2. cis4
+    \tempoDonaB h1
+    cis\fermata \bar "|." %45 FINIS
+  }
+}
