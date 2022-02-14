@@ -6,7 +6,7 @@ KyrieBasso = {
     \key a \major \time 4/4 \autoBeamOff \tempoKyrie
     r4 \mvTr a'2\fE^\tutti a4
     a2 r4 a
-    dis,2. dis4
+    dis,2.^\critnote dis4
     e2 r4 e
     cis2 d %5
     a e'~
@@ -169,7 +169,7 @@ QuiTollisBasso = {
     a
     gis
     g
-    fis2.( g4) fis e %75
+    fis2.( g4 fis e) %75
     dis1.
     e2 h e~
     e dis1
@@ -179,7 +179,7 @@ QuiTollisBasso = {
     a2 e a4 g
     fis e fis g e fis
     g2 d g
-    c, d1 %85
+    c,( d1) %85
     g,1 r2
     R1.*2
     r2 c4( d e fis!)
@@ -193,7 +193,7 @@ QuiTollisBasso = {
     fis
     f
     e~
-    e2 d cis %100
+    e2 d( cis) %100
     d1.
     dis
     e2 g e
@@ -232,8 +232,8 @@ QuiTollisBassoLyrics = \lyricmode {
   re --
   re,
   mi --
-  se -- re -- _ %75
-  _
+  se -- %75
+  re --
   _ re no --
   _
   bis. Qui __
@@ -241,8 +241,8 @@ QuiTollisBassoLyrics = \lyricmode {
   dex -- te -- ram
   Pa -- tris: Mi -- se --
   re -- _ _ _ _ _
-  _ _ _
-  re no -- %85
+  _ _ re
+  no -- %85
   bis.
 
   Qui __ %89
@@ -256,9 +256,9 @@ QuiTollisBassoLyrics = \lyricmode {
   re,
   mi --
   se --
-  re -- re %100
+  re -- %100
+  re
   no --
-  _
   _ _ _
   _
   bis, mi -- se -- %105
@@ -459,7 +459,7 @@ CredoBassoLyrics = \lyricmode {
 CrucifixusBasso = {
   \relative c {
     \clef bass
-    \key a \major \time 4/4 \autoBeamOff \tempoCrucifixus
+    \key h \minor \time 4/4 \autoBeamOff \tempoCrucifixus
       \set Score.currentBarNumber = #73
     \mvTr h'2\pE^\solo ais
     h4 h, a'8. a16 a8 a
@@ -532,7 +532,7 @@ EtResurrexitBasso = {
     a4. a8 a4
     gis fis e %135
     a4. a8 gis4
-    fis4. fis8 fis4
+    fis fis4. fis8^\critnote
     e2 e4
     dis4. dis8 dis4
     d d d %140

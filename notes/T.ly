@@ -6,7 +6,7 @@ KyrieTenore = {
     \key a \major \time 4/4 \autoBeamOff \tempoKyrie
     r4 \mvTr e2\fE^\tutti e4
     e2 r4 e
-    fis2. fis4
+    fis2.^\critnote fis4
     e2 r4 e
     e2. d4~ %5
     d cis h cis8[ h16 a]
@@ -177,7 +177,7 @@ QuiTollisTenore = {
     fis1.
     e1 r2
     r h'4( cis) dis?2 %80
-    e h e~
+    e( h) e
     e1.
     d
     d
@@ -188,7 +188,7 @@ QuiTollisTenore = {
     h %90
     b
     a1 a2~
-    a1^\critnote gis2
+    a1^\critnote gis!2
     a c4( d) e( f)
     e1.~ %95
     e
@@ -242,8 +242,8 @@ QuiTollisTenoreLyrics = \lyricmode {
   no --
   bis,
   mi -- se -- %80
-  re -- re, mi --
-
+  re -- re,
+  mi --
   se --
   re --
   _ re no -- %85
@@ -301,7 +301,7 @@ QuoniamTenore = {
     cis2 dis
     e h
     h2. h4
-    h2 h4 cis %155
+    h2 h4 cis^\critnote %155
     cis cis h2^\critnote
     h1
     r2 r4 e

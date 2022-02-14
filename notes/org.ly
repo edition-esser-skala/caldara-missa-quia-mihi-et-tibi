@@ -107,7 +107,7 @@ GloriaOrgano = {
     a cis8 a e4 eis
     fis a8 fis h gis cis cis, %10
     fis fis d h h'16 a gis fis gis8 e
-    a16 gis fis e fis e d cis d8 a' h16 a gis fis
+    a16^\critnote gis fis e fis e d cis d8 a' h16 a gis fis
     gis8 cis, d e a,4 \mvTr a'~\fE-\tutti
     a8 a a4 ais2
     h4 fis \clef treble cis''8 cis ais cis %15
@@ -666,7 +666,7 @@ CredoBassFigures = \figuremode {
 CrucifixusOrgano = {
   \relative c {
     \clef bass
-    \key a \major \time 4/4 \tempoCrucifixus
+    \key h \minor \time 4/4 \tempoCrucifixus
       \set Score.currentBarNumber = #73
     \mvTr h'2\pE^\solo ais
     h a

@@ -10,9 +10,9 @@ KyrieViolinoII = {
     h2 r4 h
     e e2 d4~ %5
     d cis h cis
-    h2.\trill h4 \noBreak
+    h2.\trill_\critnote h4 \noBreak
     a1\fermata \bar "||"
-    \tempoChriste a,8\p a' gis e a, a' fis d \noBreak
+    \tempoChriste a,8\p^\critnote a' gis e a, a' fis d \noBreak
     e d cis a h h16 cis dis8 h %10
     e e' fis, fis' e e, gis e
     a fis h h, e h' gis e
@@ -32,7 +32,7 @@ KyrieViolinoII = {
     cis cis fis4. h,8 e4~
     e8 dis16 cis dis4 e r
     R1
-    e,4 fis gis8 gis a gis %30
+    e,4-\critnote fis gis8 gis a gis %30
     fis fis h2 a4~
     a gis2 fis4~
     fis eis fis8 cis' fis fis,
@@ -75,7 +75,7 @@ GloriaViolinoII = {
     g fis e2 %25
     d r
     R1*5 %31
-    r2 a'8.\ppE gis16 gis4
+    r2^\critnote a'8.\ppE gis16 gis4
     a8 fis h a gis8. fis16 e4
     e e8 e fis2~
     fis8 e fis16 gis e fis gis2~ %35
@@ -99,7 +99,7 @@ QuiTollisViolinoII = {
     fis2 r4 fis8-\critnote fis %45
     fis2. fis4
     e2. e4
-    eis8 eis fis2 eis4
+    eis8-\critnote eis fis2 eis4
     fis1
     r4 fis e e %50
     r8 e e e a2
@@ -111,7 +111,7 @@ QuiTollisViolinoII = {
     \tempoAdDexteram h a8[ g] a2 \noBreak
     h1\fermata \bar "||" %60
     \time 3/2 \tempoMiserere \newSpacingSection
-      r2 e,4 fis g a \noBreak
+      r2-\critnote e,4 fis g a \noBreak
     h2 fis h
     gis!4 fis gis a fis gis
     a2 e a4 g
@@ -172,10 +172,10 @@ QuoniamViolinoII = {
       \set Score.currentBarNumber = #112
     a'8.\fE h16 cis8 a e' cis fis4
     e r8 gis fis e4 a8~
-    a gis fis8.\trill fis16 e8 e h cis
+    a gis fis8.\trill-\critnote fis16 e8 e h cis
     d!4. cis16 h cis8 cis fis4~ %115
     fis8 h, e4. d16 cis d4~
-    d8 cis h8.\trill h16 a4 r
+    d8 cis h8.\trill-\critnote h16 a4 r
     R1
     r2 a8.\p h16 cis8 a
     r2 e8. fis16 gis8 e %120
@@ -183,7 +183,7 @@ QuoniamViolinoII = {
     a a h h gis gis a a
     fis fis gis gis e e fis fis
     h, h cis cis a a h h
-    e4 r r8 h'\f e,32( fis gis8.) %125
+    e4 r r8 h'\f e,32(-\critnote fis gis8.) %125
     a8 e r4 r2
     r4 e'2\p d4~
     d cis2 h8 a
@@ -238,7 +238,7 @@ CredoViolinoII = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \tempoCredo
-    \mvDl <a'' cis, e, a,>2\fE r4
+    \mvDl <a'' cis, e, a,>2\fE r4-\critnote
     R2.
     q2 r4
     r r h,\p
@@ -306,7 +306,7 @@ CredoViolinoII = {
 CrucifixusViolinoII = {
   \relative c' {
     \clef treble
-    \key a \major \time 4/4 \tempoCrucifixus
+    \key h \minor \time 4/4 \tempoCrucifixus
       \set Score.currentBarNumber = #73
     d8\p d d d e e e e
     d d d d dis dis dis dis
@@ -339,7 +339,7 @@ EtResurrexitViolinoII = {
     d4 cis r \noBreak
     h ais r
     \time 4/4 \tempoEtMortuos r h,2\p ais4 %100
-    \time 3/4 h \tempoCuius h'8\f a gis h \noBreak
+    \time 3/4 h^\critnote \tempoCuius h'8\f a gis h \noBreak
     cis4 h h
     cis h cis
     r8 cis h2
@@ -367,7 +367,7 @@ EtResurrexitViolinoII = {
     r h e
     cis r r \noBreak %150
     r e, gis
-    \time 4/4 \tempoMortuorum \newSpacingSection e r r2 \noBreak
+    \time 4/4 \tempoMortuorum \newSpacingSection e-\critnote r r2 \noBreak
     R1*2
     \tempoEtVitam R1*2 %156
     r2 r4 e\fE
@@ -414,7 +414,7 @@ OsannaViolinoII = {
     \key a \major \time 2/2 \tempoOsanna
       \set Score.currentBarNumber = #10
       \set Staff.timeSignatureFraction = 2/2
-    R\breve %10
+    R\breve_\critnote %10
     e1\fE fis2. gis4
     a2 gis4 fis e2 a~
     a4 gis8 fis gis2 a1
@@ -460,7 +460,7 @@ AgnusViolinoII = {
     ais4 ais8 ais ais ais16 ais ais8 ais
     h4 h8 h a4 a \noBreak
     a gis8 fis gis2\fermata \bar "||"
-    \tempoDona R1*6 %24
+    \tempoDona R1*6_\critnote %24
     e'4 e e e %25
     e8 cis h4 r8 cis h4
     r8 cis h a h4 e,

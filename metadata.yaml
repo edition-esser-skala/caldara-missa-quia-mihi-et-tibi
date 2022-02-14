@@ -2,6 +2,7 @@ composer:
   last: Caldara
   first: Antonio
 title: Missa Quia mihi et tibi
+subtitle: Missa Ne projicias me
 genre: mass
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 vl, vla, b, org
 license: cc-by-sa-4.0
@@ -15,6 +16,7 @@ sources:
     license: public domain
     principal: true
     notes: |
+      entitled \textit{Missa Quia mihi et tibi};\\
       contains the following parts (assigned to groups a–e according to
       grouping in the RISM entry; pages in digital version are indicated):\\
       1 × ob 1 (b, 53–58)\\
@@ -29,5 +31,16 @@ sources:
       1 × vlc (c, 163–170)\\
       2 × vlne (b1, 65–70; b2, 71–75)\\
       2 × fag (e1, 187–191; e2, 193–197)\\
-      2 × org (b, 77–85; f, 199–206)
+      2 × org (b, 77–85; f, 199–206)\\
+      ~
+  B2:
+    siglum: A-Ed
+    shelfmark: A 43
+    date: 1723-02-04
+    rism: 600037828
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/692.html
+    license: public domain
+    notes: |
+      entitled \textit{Missa Ne projicias me};\\
+      contains parts for vl 1, vl 2, S, A, T, B, vlno, and bc (one copy each)
 imslp: Mass_in_A_major_'Quia_mihi_et_tibi'_(Caldara,_Antonio)

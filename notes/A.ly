@@ -6,10 +6,10 @@ KyrieAlto = {
     \key a \major \time 4/4 \autoBeamOff \tempoKyrie
     r4 \mvTr a'2\fE^\tutti a4
     a2 r4 a
-    a2. a4
+    a2.^\critnote a4
     gis2 r4 gis
     g2 fis %5
-    \once \tieDashed e1~
+    e1~
     e^\critnote \noBreak
     e\fermata \bar "||"
     \tempoChriste r2 \mvTr e4\pE^\solo fis \noBreak
@@ -199,7 +199,7 @@ QuiTollisAlto = {
     f e1
     e r2
     e4( fis!) gis!( a) h2 %95
-    \once \tieDashed a1.~
+    a1.~
     a
     g~
     g
@@ -308,7 +308,7 @@ QuoniamAlto = {
     a' gis4( fis)
     gis( fis) gis( e) %145
     a2 a,
-    h1
+    h1^\critnote
     a2 r
     R1*2 %150
     e'1
@@ -515,7 +515,7 @@ EtResurrexitAlto = {
     g fis2
     fis4. e8 e4
     a8 h a([ g)] fis([ e)]
-    d[ cis d e fis d] %110
+    d[ cis d fis e d] %110
     cis4. h8 a4
     r a' fis
     h4. a8 g fis
@@ -650,8 +650,8 @@ EtResurrexitAltoLyrics = \lyricmode {
   et
   vi -- tam ven -- tu --
   ri sae -- cu -- li, a --
-  _ _ _ _ %170
-  _ _
+  _ _ _ men, %170
+  a -- _
   _ _
   _ _ _
   _
@@ -687,7 +687,7 @@ OsannaAlto = {
     \mvTr e1\fE^\tuttiE fis2. gis4
     a2 gis4( fis) e2 a~
     a4 gis8[ fis] gis2 a1
-    e2. fis4 gis2 \once \tieDashed a~
+    e2. fis4 gis2 a~
     a h4 a gis a h2 %15
     a1 gis
     R\breve
@@ -701,7 +701,7 @@ OsannaAlto = {
     fis e2. d4 cis2 %25
     h1 cis2 fis~
     fis4 d e1 fis2~
-    fis4 d fis h gis2 \once \tieDashed e~
+    fis4 d fis h gis2 e~
     e cis4 d e1
     e\breve\fermata \bar "||" %30 finis
   }

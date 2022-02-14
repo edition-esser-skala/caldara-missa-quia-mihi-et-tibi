@@ -12,7 +12,7 @@ KyrieViolinoI = {
     e a, e' a gis h a4~
     a gis8 fis gis4.\trill gis8 \noBreak
     a8 e16 d cis8 e a,2\fermata \bar "||"
-    \tempoChriste a,8\p a' gis e a, a' fis d \noBreak
+    \tempoChriste a,8\p^\critnote a' gis e a, a' fis d \noBreak
     e d cis a h h16 cis dis8 h %10
     e e' fis, fis' e e, gis e
     a fis h h, e4 r8 e'
@@ -36,7 +36,7 @@ KyrieViolinoI = {
     r2 h4 cis %30
     d8 d e d cis4.\trill cis8
     h4 cis4. h8 a4
-    gis2 fis8 cis' fis fis,
+    gis2-\critnote fis8 cis' fis fis,
     h h, h' a gis fis e! gis
     a a, a' gis \appoggiatura gis fis4 r8 e' %35
     a gis fis8. fis16 h8 h, r a'
@@ -76,7 +76,7 @@ GloriaViolinoI = {
     cis4 d2 cis4 %25
     d2 r
     R1*4 %30
-    r2 e8.\pp d16 cis4
+    r2 e8.\pp^\critnote d16 cis4
     d8 h e d cis4 h
     r2 h4 h8 h
     cis2~ cis8 h cis16 d h cis
@@ -186,7 +186,7 @@ QuoniamViolinoI = {
     e8 e\f h cis d!4. cis16 h %125
     cis8 cis, r4 r2
     r4 r8 gis'\p a a h h
-    gis gis a a h, cis d h
+    gis gis a a h, cis-\critnote d h
     e e fis fis d d e e
     a,4 r d'2\f %130
     cis h~ \noBreak
@@ -239,7 +239,7 @@ CredoViolinoI = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \tempoCredo
-    \mvDl <a'' cis, e, a,>2\fE r4
+    \mvDl <a'' cis, e, a,>2\fE r4-\critnote
     R2.
     q2 r4
     r r gis\p
@@ -300,7 +300,7 @@ CredoViolinoI = {
     e2 r
     R1
     r2 r4 d %70
-    c h c2
+    c h^\critnote c2
     h1\fermata \bar "||" %72 finis
   }
 }
@@ -308,7 +308,7 @@ CredoViolinoI = {
 CrucifixusViolinoI = {
   \relative c' {
     \clef treble
-    \key a \major \time 4/4 \tempoCrucifixus
+    \key h \minor \time 4/4 \tempoCrucifixus
       \set Score.currentBarNumber = #73
     fis8\p fis fis fis g g g g
     fis fis h h c c c c
@@ -341,7 +341,7 @@ EtResurrexitViolinoI = {
     fis4 fis r \noBreak
     d cis r
     \time 4/4 \tempoEtMortuos r d,\p cis2 %100
-    \time 3/4 h4 \tempoCuius gis''8\f fis e gis \noBreak
+    \time 3/4 h4^\critnote \tempoCuius gis''8\f fis e gis \noBreak
     a4 gis h
     a gis a
     r8 a a4 gis
@@ -384,7 +384,7 @@ EtResurrexitViolinoI = {
     e8 fis16 e dis4 e h~
     h8 a cis4. h16 cis d8 cis16 d
     e2 fis4 e8 d
-    cis4 d e r8 \once \tieDashed a,~ %170
+    cis4 d e r8 a,~ %170
     a gis fis h~ h a gis cis~
     cis h a d~ d cis h e~
     e d cis2 h8 a

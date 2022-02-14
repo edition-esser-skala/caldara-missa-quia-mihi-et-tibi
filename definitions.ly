@@ -35,7 +35,7 @@ tempoEtResurrexit = \tempoMarkup "Allegro"
 
 tempoSanctus = \tempoMarkup "Largo"
 tempoOsanna = \tempoMarkup "Allabreve"
-tempoBenedictus = \tempoMarkup "[Tempo deest]"
+tempoBenedictus = \tempoMarkup "Largo"
 
 tempoAgnus = \tempoMarkup "Adagio"
   tempoDona = \tempoMarkup "Andante"

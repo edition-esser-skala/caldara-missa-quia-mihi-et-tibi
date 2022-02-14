@@ -361,7 +361,7 @@ QuoniamSopranoLyrics = \lyricmode {
   so -- lus Do -- mi -- nus, tu
   so -- lus al -- tis -- si -- mus, %120
   Je --
-  _ _
+  su, Je --
   su, Je --
   su Chri --
   ste, %125
@@ -417,10 +417,10 @@ CredoSoprano = {
     \key a \major \time 3/4 \autoBeamOff \tempoCredo
     \mvTr e'4\pE^\solo cis fis
     e d2
-    cis4 a fis'(
-    e) d2\trill
+    cis4 a fis'
+    e d2\trill
     cis4 dis e %5
-    gis, fis2\trill
+    gis,( fis2)\trill
     e r4
     R2.*6 %13
     r4 a cis
@@ -473,9 +473,9 @@ CredoSopranoLyrics = \lyricmode {
   Pa -- trem o --
   mni -- po --
   ten -- tem, fa --
-  cto --
-  rem coe -- li %5
-  et ter --
+  cto -- rem
+  coe -- li et %5
+  ter --
   rae.
 
   Et in %14
@@ -594,7 +594,7 @@ EtResurrexitSoprano = {
     e8 fis16 e dis4 e h~
     h8[ a] cis4. h16[ cis] d8[ cis16 d]
     e2 fis4 e8[ d]
-    cis4 d e r8 \once \tieDashed a,~ %170
+    cis4 d e r8 a,~ %170
     a[ gis fis h]~ h[ a gis cis]~
     cis[ h a d]~ d[ cis h e]~
     e[ d] cis2 h8[ a]
@@ -727,7 +727,7 @@ OsannaSoprano = {
     a2 gis4( fis) e2 a~
     a4 gis8[ fis] gis2 a d~
     d cis4( d) e2 e, %25
-    r1 a2. d,4
+    r1 a2. d,4^\critnote
     h'2. gis4 cis2. a4
     d1. cis2
     h a1 gis2
